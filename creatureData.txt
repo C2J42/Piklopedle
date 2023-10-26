@@ -1,0 +1,594 @@
+{
+"Albino Dwarf Bulborb": {
+  "weight": 3,
+  "appearances": [4]
+},
+"Ancient Sirehound": {
+  "weight": 0,
+  "appearances": [4]
+},
+"Anode Beetle": {
+  "weight": 3,
+  "appearances": [2, 4]
+},
+"Anode Dweevil": {
+  "weight": 2,
+  "appearances": [2, 4]
+},
+"Antenna Beetle": {
+  "weight": 3,
+  "appearances": [2]
+},
+"Arachnode": {
+  "weight": 3,
+  "appearances": [3, 4]
+},
+"Arctic Cannon Beetle": {
+  "weight": 30,
+  "appearances": [4]
+},
+"Arctic Cannon Larva": {
+  "weight": 7,
+  "appearances": [3, 4]
+},
+"Aristocrab Offspring": {
+  "weight": 3,
+  "appearances": [4]
+},
+"Armored Cannon Beetle": {
+  "weight": 30,
+  "appearances": [1]
+},
+"Armored Cannon Larva": {
+  "weight": 7,
+  "appearances": [2, 3, 4]
+},
+"Armored Mawdad": {
+  "weight": 20,
+  "appearances": [3]
+},
+"Baldy Long Legs": {
+  "weight": 0,
+  "appearances": [3, 4]
+},
+"Beady Long Legs": {
+  "weight": 0,
+  "appearances": [1, 2]
+},
+"Bearded Amprat": {
+  "weight": 7,
+  "appearances": [3, 4]
+},
+"Blizzarding Blowhog": {
+  "weight": 15,
+  "appearances": [4]
+},
+"Bloomcap Bloyster": {
+  "weight": 0,
+  "appearances": [4]
+},
+"Bogswallow": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Breadbug": {
+  "weight": 3,
+  "appearances": [1, 2, 4]
+},
+"Bug-Eyed Crawmad": {
+  "weight": 15,
+  "appearances": [3, 4]
+},
+"Bulbmin": {
+  "weight": 7,
+  "appearances": [2]
+},
+"Bulborb Larva": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Bulborb": {
+  "weight": 10,
+  "appearances": [1, 2, 3, 4]
+},
+"Bumbling Snitchbug": {
+  "weight": 3,
+  "appearances": [2]
+},
+"Burrowing Snagret": {
+  "weight": 15,
+  "appearances": [1, 2, 3, 4]
+},
+"Calcified Crushblat": {
+  "weight": 12,
+  "appearances": [3]
+},
+"Careening Dirigibug": {
+  "weight": 3,
+  "appearances": [2]
+},
+"Chillyhop": {
+  "weight": 5,
+  "appearances": [4]
+},
+"Cloaking Burrow-nit": {
+  "weight": 8,
+  "appearances": [2]
+},
+"Creeping Chrysanthemum": {
+  "weight": 10,
+  "appearances": [2, 4]
+},
+"Crusted Rumpup": {
+  "weight": 20,
+  "appearances": [4]
+},
+"Decorated Cannon Beetle": {
+  "weight": 7,
+  "appearances": [2]
+},
+"Desiccated Skitter Leaf": {
+  "weight": 1,
+  "appearances": [3, 4]
+},
+"Doodlebug": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Downy Snagret": {
+  "weight": 3,
+  "appearances": [4]
+},
+"Dwarf Bulbear": {
+  "weight": 3,
+  "appearances": [1, 2, 3, 4]
+},
+"Dwarf Bulborb": {
+  "weight": 3,
+  "appearances": [1, 2, 3, 4]
+},
+"Dwarf Frosty Bulborb": {
+  "weight": 3,
+  "appearances": [4]
+},
+"Dwarf Orange Bulborb": {
+  "weight": 3,
+  "appearances": [2, 3, 4]
+},
+"Emperor Bulblax": {
+  "weight": 15,
+  "appearances": [1, 2, 4]
+},
+"Empress Bulblax": {
+  "weight": 20,
+  "appearances": [2, 4]
+},
+"Female Sheargrub": {
+  "weight": 1,
+  "appearances": [1, 2, 3, 4]
+},
+"Fiery Blowhog": {
+  "weight": 5,
+  "appearances": [1, 2, 3, 4]
+},
+"Fiery Bulblax": {
+  "weight": 12,
+  "appearances": [2, 4]
+},
+"Fiery Dweevil": {
+  "weight": 2,
+  "appearances": [2, 4]
+},
+"Flighty Joustmite": {
+  "weight": 7,
+  "appearances": [3, 4]
+},
+"Foolix": {
+  "weight": 5,
+  "appearances": [4]
+},
+"Freezecake": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Frosty Bulborb": {
+  "weight": 10,
+  "appearances": [4]
+},
+"Gatling Groink": {
+  "weight": 10,
+  "appearances": [2]
+},
+"Giant Breadbug": {
+  "weight": 12,
+  "appearances": [2, 4]
+},
+"Gildemander": {
+  "weight": 20,
+  "appearances": [4]
+},
+"Gildemandwee": {
+  "weight": 5,
+  "appearances": [4]
+},
+"Goolix": {
+  "weight": 0,
+  "appearances": [1]
+},
+"Greater Spotted Jellyfloat": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Groovy Long Legs": {
+  "weight": 0,
+  "appearances": [4]
+},
+"Grubchucker": {
+  "weight": 12,
+  "appearances": [4]
+},
+"Hairy Bulborb": {
+  "weight": 10,
+  "appearances": [2]
+},
+"Hermit Crawmad": {
+  "weight": 5,
+  "appearances": [2, 3, 4]
+},
+"Honeywisp": {
+  "weight": 0,
+  "appearances": [1, 2, 4]
+},
+"Horned Cannon Beetle": {
+  "weight": 30,
+  "appearances": [4]
+},
+"Hydro Dweevil": {
+  "weight": 2,
+  "appearances": [2, 4]
+},
+"Iceblown Dweevil": {
+  "weight": 2,
+  "appearances": [4]
+},
+"Icy Blowhog": {
+  "weight": 1,
+  "appearances": [4]
+},
+"Iridescent Flint Beetle": {
+  "weight": 0,
+  "appearances": [1, 2, 3, 4]
+},
+"Iridescent Glint Beetle": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Joustmite": {
+  "weight": 7,
+  "appearances": [3, 4]
+},
+"Jumbo Bulborb": {
+  "weight": 20,
+  "appearances": [4]
+},
+"Lesser Spotted Jellyfloat": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Male Sheargrub": {
+  "weight": 1,
+  "appearances": [1, 2, 3, 4]
+},
+"Mama Sheargrub": {
+  "weight": 10,
+  "appearances": [4]
+},
+"Mammoth Snootwhacker": {
+  "weight": 20,
+  "appearances": [4]
+},
+"Mamuta": {
+  "weight": 10,
+  "appearances": [1, 2, 4]
+},
+"Man-at-Legs": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Masterhop": {
+  "weight": 15,
+  "appearances": [4]
+},
+"Medusal Slurker": {
+  "weight": 6,
+  "appearances": [3]
+},
+"Miniature Snootwhacker": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Mitite": {
+  "weight": 1,
+  "appearances": [2, 4]
+},
+"Moldy Dwarf Bulborb": {
+  "weight": 3,
+  "appearances": [4]
+},
+"Moldy Slooch": {
+  "weight": 3,
+  "appearances": [4]
+},
+"Moss": {
+  "weight": 0,
+  "appearances": []
+},
+"Muckerskate": {
+  "weight": 2,
+  "appearances": [4]
+},
+"Munge Dweevil": {
+  "weight": 3,
+  "appearances": [2]
+},
+"Mysterious Life-Form": {
+  "weight": 0,
+  "appearances": [3]
+},
+"Nectarous Dandelfly": {
+  "weight": 0,
+  "appearances": [3]
+},
+"Orange Bulborb": {
+  "weight": 10,
+  "appearances": [2, 3, 4]
+},
+"Pearly Clamclamp": {
+  "weight": 10,
+  "appearances": [1, 4]
+},
+"Peckish Aristocrab": {
+  "weight": 7,
+  "appearances": [3, 4]
+},
+"Phosbat Pod": {
+  "weight": 0,
+  "appearances": [3]
+},
+"Phosbat": {
+  "weight": 0,
+  "appearances": [3]
+},
+"Pileated Snagret": {
+  "weight": 5,
+  "appearances": [2]
+},
+"Plasm Wraith": {
+  "weight": 0,
+  "appearances": [3]
+},
+"Porquillion": {
+  "weight": 12,
+  "appearances": [4]
+},
+"Pricklepuff": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Puckering Blinnow": {
+  "weight": 1,
+  "appearances": [3, 4]
+},
+"Puffstool": {
+  "weight": 12,
+  "appearances": [1, 4]
+},
+"Puffy Blowhog": {
+  "weight": 1,
+  "appearances": [1, 2, 3, 4]
+},
+"Pyroclasmic Slooch": {
+  "weight": 3,
+  "appearances": [3, 4]
+},
+"Quaggled Mireclops": {
+  "weight": 20,
+  "appearances": [3]
+},
+"Raging Long Legs": {
+  "weight": 0,
+  "appearances": [2]
+},
+"Ranging Bloyster": {
+  "weight": 3,
+  "appearances": [2]
+},
+"Ravenous Whiskerpillar": {
+  "weight": 1,
+  "appearances": [2]
+},
+"Red Spectralids": {
+  "weight": 1,
+  "appearances": [3, 4]
+},
+"Sandbelching Meerslug": {
+  "weight": 20,
+  "appearances": [3]
+},
+"Scorchcake": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Scornet Maestro": {
+  "weight": 10,
+  "appearances": [3]
+},
+"Scornet": {
+  "weight": 1,
+  "appearances": [3]
+},
+"Segmented Crawbster": {
+  "weight": 20,
+  "appearances": [2]
+},
+"Shaggy Long Legs": {
+  "weight": 0,
+  "appearances": [3]
+},
+"Shearflea": {
+  "weight": 1,
+  "appearances": [4]
+},
+"Shearwig": {
+  "weight": 1,
+  "appearances": [1, 2, 3, 4]
+},
+"Shockcake": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Skeeterskate": {
+  "weight": 2,
+  "appearances": [3, 4]
+},
+"Skitter Leaf": {
+  "weight": 1,
+  "appearances": [2, 3, 4]
+},
+"Skutterchuck": {
+  "weight": 3,
+  "appearances": [3, 4]
+},
+"Smoky Progg": {
+  "weight": 3,
+  "appearances": [1, 4]
+},
+"Snow Bulborb": {
+  "weight": 3,
+  "appearances": [2]
+},
+"Snowfake Fluttertail": {
+  "weight": 15,
+  "appearances": [4]
+},
+"Snowy Blowhog": {
+  "weight": 5,
+  "appearances": [4]
+},
+"Sovereign Bulblax": {
+  "weight": 30,
+  "appearances": [4]
+},
+"Spotty Bulbear": {
+  "weight": 12,
+  "appearances": [1, 2, 3, 4]
+},
+"Sputtlefish": {
+  "weight": 5,
+  "appearances": [3]
+},
+"Startle Spore": {
+  "weight": 10,
+  "appearances": [4]
+},
+"Sunsquish": {
+  "weight": 1,
+  "appearances": [4]
+},
+"Swarming Sheargrub": {
+  "weight": 1,
+  "appearances": [3]
+},
+"Swooping Snitchbug": {
+  "weight": 3,
+  "appearances": [1, 2, 3, 4]
+},
+"Titan Blowhog": {
+  "weight": 15,
+  "appearances": [4]
+},
+"Titan Dweevil": {
+  "weight": 0,
+  "appearances": [2]
+},
+"Toady Bloyster": {
+  "weight": 3,
+  "appearances": [2, 3, 4]
+},
+"Toxstool": {
+  "weight": 12,
+  "appearances": [4]
+},
+"Tusked Blowhog": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Ujadani": {
+  "weight": 0,
+  "appearances": [2]
+},
+"Unmarked Spectralids": {
+  "weight": 1,
+  "appearances": [2]
+},
+"Vehemoth Phosbat": {
+  "weight": 15,
+  "appearances": [3]
+},
+"Venom Dweevil": {
+  "weight": 2,
+  "appearances": [4]
+},
+"Volatile Dweevil": {
+  "weight": 0,
+  "appearances": [2]
+},
+"Waddlepus": {
+  "weight": 7,
+  "appearances": [3, 4]
+},
+"Waddlequaff": {
+  "weight": 7,
+  "appearances": [4]
+},
+"Water Dumple": {
+  "weight": 3,
+  "appearances": [1, 2, 3, 4]
+},
+"Waterwraith": {
+  "weight": 0,
+  "appearances": [2, 4]
+},
+"Watery Blowhog": {
+  "weight": 5,
+  "appearances": [2, 3, 4]
+},
+"Whiptongue Bulborb": {
+  "weight": 10,
+  "appearances": [3, 4]
+},
+"White Spectralids": {
+  "weight": 1,
+  "appearances": [3, 4]
+},
+"Withering Blowhog": {
+  "weight": 1,
+  "appearances": [2, 4]
+},
+"Wollyhop": {
+  "weight": 5,
+  "appearances": [1, 2, 4]
+},
+"Wolpole": {
+  "weight": 1,
+  "appearances": [1, 2, 3, 4]
+},
+"Yellow Spectralids": {
+  "weight": 1,
+  "appearances": [3, 4]
+},
+"Yellow Wollyhop": {
+  "weight": 5,
+  "appearances": [1, 2, 3, 4]
+}
+}
