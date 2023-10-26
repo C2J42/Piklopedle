@@ -1,6 +1,6 @@
 function evaluateEnemy() {
     document.getElementById("output").textContent = "You said: " + document.getElementById("creatureInput").value;
-    getEnemyInfo(document.getElementById("creatureInput").value, "weight")
+    getEnemyInfo(document.getElementById("creatureInput").value)
 }
 
 function compareNames() {
@@ -14,11 +14,10 @@ function compareNames() {
     });
 }
 
-function getEnemyInfo(creature, elem) {
-    const input = document.getElementById("creatureInput").value;
+function getEnemyInfo(inputName) {
     $.getJSON('creatureData.json', function(data) {
         $.each(data.creature, function(i, c) {
-            if (input == c.name) {
+            if (inputName == c.name) {
                 document.getElementById("inputName").textContent = c.name
                 document.getElementById("inputWeight").textContent = c.weight
                 document.getElementById("inputFirstAppear").textContent = c.appearances.substring(1, 2)
