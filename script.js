@@ -43,13 +43,25 @@ function newTarget() {
 function compareVals() {
     if (inputCreature != null) {
         // compare name
-        document.getElementById("targetNameCompare").textContent = inputCreature.name == targetCreature.name;
+        if (inputCreature.name == targetCreature.name) {
+            document.getElementById("targetNameCompare").textContent = targetCreature.name;
+        }
+
         // compare weight
-        document.getElementById("targetWeightCompare").textContent = inputCreature.weight == targetCreature.weight;
+        let lorm = (parseInt(inputCreature.weight) > targetCreature.weight ? "less" 
+        : (parseInt(inputCreature.weight) == parseInt(targetCreature.weight) ? "equal!" : "more"));
+        document.getElementById("targetWeightCompare").textContent = lorm;
+
+        // TODO compare health
+
+        // TODO compare family
+        
+        // TODO another comparision if not enough to distinguish?
+
         // compare first appear
         document.getElementById("targetFirstAppearCompare").textContent = inputCreature.appearances.substring(1, 2) == targetCreature.appearances.substring(1, 2);
     } else {
-        document.getElementById("targetNameCompare").textContent = "n/a";
+        document.getElementById("targetNameCompare").textContent = "???";
         // compare weight
         document.getElementById("targetWeightCompare").textContent = "n/a";
         // compare first appear
