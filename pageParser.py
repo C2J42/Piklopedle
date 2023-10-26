@@ -121,14 +121,14 @@ class ParseHandler:
     def __writeToJson__():
         data = ParseHandler.getData()
         with open("creatureData.json", "w") as file:
-            file.write("{\n")
+            file.write("{\n\"creature\": [")
             for i in range(0, len(data)):
                 e: Enemy = data[i]
                 if (i < len(data)-1):
                     file.write(e.toJsonStr() + ",\n")
                 else:
                     file.write(e.toJsonStr())
-            file.write("\n}")
+            file.write("\n]}")
 
     # runs the parse
     @staticmethod
@@ -160,16 +160,15 @@ class Enemy:
 
     # turns enemy data in json-formatted string
     def toJsonStr(self):
-        return ("\"" + self.name + "\": {" + 
+        return ("{" + 
+                self.__toJsonStrHelper__("name", self.name) + "," +
                 self.__toJsonStrHelper__("weight", self.weight) + "," +
                 self.__toJsonStrHelper__("appearances", self.appearances)
                 + "\n}")
 
     # helper func for toJsonStr
     def __toJsonStrHelper__(self, fieldName, fieldData):
-        if (isinstance(fieldData, str)):
-            fieldData = "\"" + fieldData + "\""
-        return "\n  \"" + fieldName + "\": " + str(fieldData)
+        return "\n  \"" + fieldName + "\": \"" + str(fieldData) + "\""
 
     # Gets and parses URL data
     def getDataFromUrl(self):
