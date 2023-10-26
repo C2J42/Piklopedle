@@ -253,6 +253,8 @@ class Enemy:
                     isReading = True
             elif self.urlText[i-len(appearanceFlag)+1: i+1] == appearanceFlag:
                 isScanning = True
+        if (self.name == "Moss"): # for some reason Moss has special data?
+            return [4]
         return rList
 
 

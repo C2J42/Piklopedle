@@ -4,10 +4,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
-<body>
+<body onload = "newTarget()">
 
 <input type="text" id="creatureInput" value="Hello world!">
-<button onclick="evaluateEnemy()">Enter</button>
+<button onclick="evaluateInput()">Enter</button>
+<button onclick="newTarget()">New Target</button>
 <p id="output">No input</p>
 <table>
     <tr>
@@ -19,6 +20,11 @@
         <th id="inputName">n/a</th>
         <th id="inputWeight">n/a</th>
         <th id="inputFirstAppear">n/a</th>
+    </tr>
+    <tr>
+        <th id="targetNameCompare">n/a</th>
+        <th id="targetWeightCompare">n/a</th>
+        <th id="targetFirstAppearCompare">n/a</th>
     </tr>
 </table>
 
