@@ -2,7 +2,19 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script>
+        function compareNames() {
+            var input = document.getElementById("creatureInput").value;
+            $.getJSON('creatureData.json', function(data) {
+                $.each(data.creature, function(i, c) {
+                    if (input == c.name) {
+                        document.getElementById("output").textContent = c.weight
+                    }
+                });
+            });
+        }
+    </script>
+    
 </head>
 <body>
 
