@@ -14,6 +14,7 @@ function getEnemyInfo(inputName, callback) {
             if (inputName == c.name) {
                 document.getElementById("inputName").textContent = c.name;
                 document.getElementById("inputWeight").textContent = c.weight;
+                document.getElementById("inputHealth").textContent = c.health;
                 document.getElementById("inputFirstAppear").textContent = c.appearances.substring(1, 2);
                 inputCreature = c
                 foundTarg = true;
@@ -25,6 +26,7 @@ function getEnemyInfo(inputName, callback) {
             inputCreature = null;
             document.getElementById("inputName").textContent = "n/a";
             document.getElementById("inputWeight").textContent = "n/a";
+            document.getElementById("inputHealth").textContent = "n/a";
             document.getElementById("inputFirstAppear").textContent = "n/a";
             callback();
         }
@@ -48,13 +50,16 @@ function compareVals() {
         }
 
         // compare weight
-        let lorm = (parseInt(inputCreature.weight) > targetCreature.weight ? "less" 
+        let lormWeight = (parseInt(inputCreature.weight) > parseInt(targetCreature.weight) ? "less" 
         : (parseInt(inputCreature.weight) == parseInt(targetCreature.weight) ? "equal!" : "more"));
-        document.getElementById("targetWeightCompare").textContent = lorm;
+        document.getElementById("targetWeightCompare").textContent = lormWeight;
 
         // TODO compare health
+        let lormHealth = (parseInt(inputCreature.health) > parseInt(targetCreature.health) ? "less" 
+        : (parseInt(inputCreature.health) == parseInt(targetCreature.health) ? "equal!" : "more"));
+        document.getElementById("targetHealthCompare").textContent = lormHealth;
 
-        // TODO compare family
+        // TODO compare family - maybe?
         
         // TODO another comparision if not enough to distinguish?
 
@@ -65,6 +70,7 @@ function compareVals() {
         // compare weight
         document.getElementById("targetWeightCompare").textContent = "n/a";
         // compare first appear
+        document.getElementById("targetHealthCompare").textContent = "n/a";
         document.getElementById("targetFirstAppearCompare").textContent = "n/a";
     }
 }
