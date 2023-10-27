@@ -1,10 +1,12 @@
 let targetCreature = null;
 let inputCreature = null;
 
+// redo how data shown. Comparision stuff on the input fields, not target fields
+
 function evaluateInput() {
     document.getElementById("output").textContent = "You said: " + document.getElementById("creatureInput").value;
     getEnemyInfo(document.getElementById("creatureInput").value, compareVals)
-    // maybe add new row per input, showing max 5-10 rows?
+    // TODO add new row per input, showing max 5-10 rows?
 }
 
 function getEnemyInfo(inputName, callback) {
@@ -16,6 +18,7 @@ function getEnemyInfo(inputName, callback) {
                 document.getElementById("inputWeight").textContent = c.weight;
                 document.getElementById("inputHealth").textContent = c.health;
                 document.getElementById("inputFirstAppear").textContent = c.appearances.substring(1, 2);
+                document.getElementById("inputFamily").textContent = c.family;
                 inputCreature = c
                 foundTarg = true;
                 callback();
@@ -28,6 +31,7 @@ function getEnemyInfo(inputName, callback) {
             document.getElementById("inputWeight").textContent = "n/a";
             document.getElementById("inputHealth").textContent = "n/a";
             document.getElementById("inputFirstAppear").textContent = "n/a";
+            document.getElementById("inputFamily").textContent = "n/a";
             callback();
         }
     });
@@ -59,9 +63,10 @@ function compareVals() {
         : (parseInt(inputCreature.health) == parseInt(targetCreature.health) ? "equal!" : "more"));
         document.getElementById("targetHealthCompare").textContent = lormHealth;
 
-        // TODO compare family - maybe?
-        
-        // TODO another comparision if not enough to distinguish?
+        // TODO compare family
+        if (inputCreature.family == targetCreature.family) {
+            document.getElementById("targetFamilyCompare").textContent = targetCreature.family;
+        }
 
         // compare first appear
         document.getElementById("targetFirstAppearCompare").textContent = inputCreature.appearances.substring(1, 2) == targetCreature.appearances.substring(1, 2);

@@ -3,858 +3,1036 @@
   "name": "Albino Dwarf Bulborb",
   "weight": "3",
   "appearances": "[4]",
-  "health": "200"
+  "health": "200", 
+  "family": "Grub-dog"
 },
 {
   "name": "Ancient Sirehound",
   "weight": "0",
   "appearances": "[4]",
-  "health": "36000"
+  "health": "36000", 
+  "family": "Unknown"
 },
 {
   "name": "Anode Beetle",
   "weight": "3",
   "appearances": "[2, 4]",
-  "health": "350"
+  "health": "350", 
+  "family": "Scarab beetle"
 },
 {
   "name": "Anode Dweevil",
   "weight": "2",
   "appearances": "[2, 4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Dweevil"
 },
 {
   "name": "Antenna Beetle",
   "weight": "3",
   "appearances": "[2]",
-  "health": "700"
+  "health": "700", 
+  "family": "Kettlebug"
 },
 {
   "name": "Arachnode",
   "weight": "3",
   "appearances": "[3, 4]",
-  "health": "450"
+  "health": "450", 
+  "family": "Awrapnid"
 },
 {
   "name": "Arctic Cannon Beetle",
   "weight": "30",
   "appearances": "[4]",
-  "health": "4500"
+  "health": "4500", 
+  "family": "Lithopod"
 },
 {
   "name": "Arctic Cannon Larva",
   "weight": "7",
   "appearances": "[3, 4]",
-  "health": "900"
+  "health": "900", 
+  "family": "Lithopod"
 },
 {
   "name": "Aristocrab Offspring",
   "weight": "3",
   "appearances": "[4]",
-  "health": "450"
+  "health": "450", 
+  "family": "Onionshell"
+},
+{
+  "name": "Armored Cannon Beetle",
+  "weight": "30",
+  "appearances": "[1]",
+  "health": "0", 
+  "family": "Lithopod"
 },
 {
   "name": "Armored Cannon Larva",
   "weight": "7",
   "appearances": "[2, 3, 4]",
-  "health": "900"
+  "health": "900", 
+  "family": "Lithopod"
 },
 {
   "name": "Armored Mawdad",
   "weight": "20",
   "appearances": "[3]",
-  "health": "4000"
+  "health": "4000", 
+  "family": "Mawdad"
 },
 {
   "name": "Baldy Long Legs",
   "weight": "0",
   "appearances": "[3, 4]",
-  "health": "3700"
+  "health": "3700", 
+  "family": "Arachnorb"
 },
 {
   "name": "Beady Long Legs",
   "weight": "0",
   "appearances": "[1, 2]",
-  "health": "1300"
+  "health": "1300", 
+  "family": "Arachnorb"
 },
 {
   "name": "Bearded Amprat",
   "weight": "7",
   "appearances": "[3, 4]",
-  "health": "750"
+  "health": "750", 
+  "family": "Numbouse"
 },
 {
   "name": "Blizzarding Blowhog",
   "weight": "15",
   "appearances": "[4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Blowhog"
 },
 {
   "name": "Bloomcap Bloyster",
   "weight": "8",
   "appearances": "[4]",
-  "health": "3000"
+  "health": "3000", 
+  "family": "Mollusking"
 },
 {
   "name": "Bogswallow",
   "weight": "7",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Polyocular slug"
 },
 {
   "name": "Breadbug",
   "weight": "3",
   "appearances": "[1, 2, 4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Breadbug"
 },
 {
   "name": "Bug-Eyed Crawmad",
   "weight": "15",
   "appearances": "[3, 4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Crawmad"
 },
 {
   "name": "Bulbmin",
   "weight": "7",
   "appearances": "[2]",
-  "health": "300"
+  "health": "300", 
+  "family": "Pikmin"
 },
 {
   "name": "Bulborb Larva",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "1"
+  "health": "1", 
+  "family": "Grub-dog"
 },
 {
   "name": "Bulborb",
   "weight": "10",
   "appearances": "[1, 2, 3, 4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Grub-dog"
 },
 {
   "name": "Bumbling Snitchbug",
   "weight": "3",
   "appearances": "[2]",
-  "health": "1500"
+  "health": "1500", 
+  "family": "Scarpanid"
 },
 {
   "name": "Burrowing Snagret",
   "weight": "15",
   "appearances": "[1, 2, 3, 4]",
-  "health": "2500"
+  "health": "2500", 
+  "family": "Snavian"
 },
 {
   "name": "Calcified Crushblat",
   "weight": "12",
   "appearances": "[3]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Crushblat"
 },
 {
   "name": "Careening Dirigibug",
   "weight": "3",
   "appearances": "[2]",
-  "health": "1500"
+  "health": "1500", 
+  "family": "Dirigibug"
 },
 {
   "name": "Chillyhop",
   "weight": "5",
   "appearances": "[4]",
-  "health": "900"
+  "health": "900", 
+  "family": "Amphituber"
 },
 {
   "name": "Cloaking Burrow-nit",
   "weight": "8",
   "appearances": "[2]",
-  "health": "300"
+  "health": "300", 
+  "family": "Burrow-nit"
 },
 {
   "name": "Creeping Chrysanthemum",
   "weight": "10",
   "appearances": "[2, 4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Chrysanthemum"
 },
 {
   "name": "Crusted Rumpup",
   "weight": "20",
   "appearances": "[4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Armrakid"
 },
 {
   "name": "Decorated Cannon Beetle",
   "weight": "7",
   "appearances": "[2]",
-  "health": "850"
+  "health": "850", 
+  "family": "Lithopod"
 },
 {
   "name": "Desiccated Skitter Leaf",
   "weight": "1",
   "appearances": "[3, 4]",
-  "health": "74"
+  "health": "74", 
+  "family": "Skitterling"
 },
 {
   "name": "Doodlebug",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "400"
+  "health": "400", 
+  "family": "Flint beetle"
 },
 {
   "name": "Downy Snagret",
   "weight": "3",
   "appearances": "[4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Snavian"
 },
 {
   "name": "Dwarf Bulbear",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Grub-dog"
 },
 {
   "name": "Dwarf Bulborb",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
-  "health": "100"
+  "health": "100", 
+  "family": "Breadbug"
 },
 {
   "name": "Dwarf Frosty Bulborb",
   "weight": "3",
   "appearances": "[4]",
-  "health": "100"
+  "health": "100", 
+  "family": "Grub-dog"
 },
 {
   "name": "Dwarf Orange Bulborb",
   "weight": "3",
   "appearances": "[2, 3, 4]",
-  "health": "200"
+  "health": "200", 
+  "family": "Breadbug"
 },
 {
   "name": "Emperor Bulblax",
   "weight": "15",
   "appearances": "[1, 2, 4]",
-  "health": "3000"
+  "health": "3000", 
+  "family": "Grub-dog"
 },
 {
   "name": "Empress Bulblax",
   "weight": "20",
   "appearances": "[2, 4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Grub-dog"
 },
 {
   "name": "Female Sheargrub",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
-  "health": "45"
+  "health": "45", 
+  "family": "Mandiblard"
 },
 {
   "name": "Fiery Blowhog",
   "weight": "5",
   "appearances": "[1, 2, 3, 4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Blowhog"
 },
 {
   "name": "Fiery Bulblax",
   "weight": "12",
   "appearances": "[2, 4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Grub-dog"
 },
 {
   "name": "Fiery Dweevil",
   "weight": "2",
   "appearances": "[2, 4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Dweevil"
 },
 {
   "name": "Flighty Joustmite",
   "weight": "7",
   "appearances": "[3, 4]",
-  "health": "600"
+  "health": "600", 
+  "family": "Burrow-nit"
 },
 {
   "name": "Foolix",
   "weight": "5",
   "appearances": "[4]",
-  "health": "12000"
+  "health": "12000", 
+  "family": "Goolix"
 },
 {
   "name": "Freezecake",
   "weight": "7",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Shellcake"
 },
 {
   "name": "Frosty Bulborb",
   "weight": "10",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Grub-dog"
 },
 {
   "name": "Gatling Groink",
   "weight": "10",
   "appearances": "[2]",
-  "health": "1200"
+  "health": "1200", 
+  "family": "Unknown"
 },
 {
   "name": "Giant Breadbug",
   "weight": "12",
   "appearances": "[2, 4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Breadbug"
 },
 {
   "name": "Gildemander",
   "weight": "20",
   "appearances": "[4]",
-  "health": "6000"
+  "health": "6000", 
+  "family": "Amphibiland"
 },
 {
   "name": "Gildemandwee",
   "weight": "5",
   "appearances": "[4]",
-  "health": "500"
+  "health": "500", 
+  "family": "Amphibiland"
+},
+{
+  "name": "Goolix",
+  "weight": "0",
+  "appearances": "[1]",
+  "health": "0", 
+  "family": "Goolix"
 },
 {
   "name": "Greater Spotted Jellyfloat",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "2500"
+  "health": "2500", 
+  "family": "Jellyfloat"
 },
 {
   "name": "Groovy Long Legs",
   "weight": "0",
   "appearances": "[4]",
-  "health": "11000"
+  "health": "11000", 
+  "family": "Arachnorb"
 },
 {
   "name": "Grubchucker",
   "weight": "12",
   "appearances": "[4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Crablipps"
 },
 {
   "name": "Hairy Bulborb",
   "weight": "10",
   "appearances": "[2]",
-  "health": "650"
+  "health": "650", 
+  "family": "Grub-dog"
 },
 {
   "name": "Hermit Crawmad",
   "weight": "5",
   "appearances": "[2, 3, 4]",
-  "health": "750"
+  "health": "750", 
+  "family": "Crawmad"
 },
 {
   "name": "Honeywisp",
   "weight": "0",
   "appearances": "[1, 2, 4]",
-  "health": "1"
+  "health": "1", 
+  "family": "Honeywisp"
 },
 {
   "name": "Horned Cannon Beetle",
   "weight": "30",
   "appearances": "[4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Lithopod"
 },
 {
   "name": "Hydro Dweevil",
   "weight": "2",
   "appearances": "[2, 4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Dweevil"
 },
 {
   "name": "Iceblown Dweevil",
   "weight": "2",
   "appearances": "[4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Dweevil"
 },
 {
   "name": "Icy Blowhog",
   "weight": "1",
   "appearances": "[4]",
-  "health": "3000"
+  "health": "3000", 
+  "family": "Blowhog"
 },
 {
   "name": "Iridescent Flint Beetle",
   "weight": "0",
   "appearances": "[1, 2, 3, 4]",
-  "health": "200"
+  "health": "200", 
+  "family": "Flint beetle"
 },
 {
   "name": "Iridescent Glint Beetle",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "600"
+  "health": "600", 
+  "family": "Glint beetle"
 },
 {
   "name": "Joustmite",
   "weight": "7",
   "appearances": "[3, 4]",
-  "health": "450"
+  "health": "450", 
+  "family": "Burrow-nit"
 },
 {
   "name": "Jumbo Bulborb",
   "weight": "20",
   "appearances": "[4]",
-  "health": "2500"
+  "health": "2500", 
+  "family": "Grub-dog"
 },
 {
   "name": "Lesser Spotted Jellyfloat",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "1500"
+  "health": "1500", 
+  "family": "Jellyfloat"
 },
 {
   "name": "Male Sheargrub",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
-  "health": "45"
+  "health": "45", 
+  "family": "Mandiblard"
 },
 {
   "name": "Mama Sheargrub",
   "weight": "10",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Mandiblard"
 },
 {
   "name": "Mammoth Snootwhacker",
   "weight": "20",
   "appearances": "[4]",
-  "health": "7000"
+  "health": "7000", 
+  "family": "Snootwhack"
 },
 {
   "name": "Mamuta",
   "weight": "10",
   "appearances": "[1, 2, 4]",
-  "health": "1800"
+  "health": "1800", 
+  "family": "Unknown"
 },
 {
   "name": "Man-at-Legs",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Arachnorb"
 },
 {
   "name": "Masterhop",
   "weight": "15",
   "appearances": "[4]",
-  "health": "3000"
+  "health": "3000", 
+  "family": "Amphituber"
 },
 {
   "name": "Medusal Slurker",
   "weight": "6",
   "appearances": "[3]",
-  "health": "750"
+  "health": "750", 
+  "family": "Umbloda"
 },
 {
   "name": "Miniature Snootwhacker",
   "weight": "7",
   "appearances": "[4]",
-  "health": "500"
+  "health": "500", 
+  "family": "Snootwhack"
 },
 {
   "name": "Mitite",
   "weight": "1",
   "appearances": "[2, 4]",
-  "health": "1"
+  "health": "1", 
+  "family": "Mitite"
 },
 {
   "name": "Moldy Dwarf Bulborb",
   "weight": "3",
   "appearances": "[4]",
-  "health": "150"
+  "health": "150", 
+  "family": "Sporovid"
 },
 {
   "name": "Moldy Slooch",
   "weight": "3",
   "appearances": "[4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Sporovid"
 },
 {
   "name": "Moss",
   "weight": "0",
   "appearances": "[4]",
-  "health": "7000"
+  "health": "7000", 
+  "family": "Space-dog"
 },
 {
   "name": "Muckerskate",
   "weight": "2",
   "appearances": "[4]",
-  "health": "45"
+  "health": "45", 
+  "family": "Spitterspatter"
 },
 {
   "name": "Munge Dweevil",
   "weight": "3",
   "appearances": "[2]",
-  "health": "350"
+  "health": "350", 
+  "family": "Dweevil"
 },
 {
   "name": "Mysterious Life-Form",
   "weight": "0",
   "appearances": "[3]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Unknown"
+},
+{
+  "name": "Nectarous Dandelfly",
+  "weight": "0",
+  "appearances": "[3]",
+  "health": "5", 
+  "family": "Dandelfly"
 },
 {
   "name": "Orange Bulborb",
   "weight": "10",
   "appearances": "[2, 3, 4]",
-  "health": "1800"
+  "health": "1800", 
+  "family": "Grub-dog"
 },
 {
   "name": "Pearly Clamclamp",
   "weight": "10",
   "appearances": "[1, 4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Snareshell"
 },
 {
   "name": "Peckish Aristocrab",
   "weight": "7",
   "appearances": "[3, 4]",
-  "health": "1500"
+  "health": "1500", 
+  "family": "Onionshell"
 },
 {
   "name": "Phosbat Pod",
   "weight": "0",
   "appearances": "[3]",
-  "health": "450"
+  "health": "450", 
+  "family": "Aerodentia"
 },
 {
   "name": "Phosbat",
   "weight": "0",
   "appearances": "[3]",
-  "health": "45"
+  "health": "45", 
+  "family": "Aerodentia"
 },
 {
   "name": "Pileated Snagret",
   "weight": "5",
   "appearances": "[2]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Snavian"
 },
 {
   "name": "Plasm Wraith",
   "weight": "0",
   "appearances": "[3]",
-  "health": "320"
+  "health": "320", 
+  "family": "Unknown"
 },
 {
   "name": "Porquillion",
   "weight": "12",
   "appearances": "[4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Sharpshell"
 },
 {
   "name": "Pricklepuff",
   "weight": "7",
   "appearances": "[4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Pricklepuff"
 },
 {
   "name": "Puckering Blinnow",
   "weight": "1",
   "appearances": "[3, 4]",
-  "health": "74"
+  "health": "74", 
+  "family": "Elips"
 },
 {
   "name": "Puffstool",
   "weight": "12",
   "appearances": "[1, 4]",
-  "health": "15000"
+  "health": "15000", 
+  "family": "Sporovid"
 },
 {
   "name": "Puffy Blowhog",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
-  "health": "3000"
+  "health": "3000", 
+  "family": "Blowhog"
 },
 {
   "name": "Pyroclasmic Slooch",
   "weight": "3",
   "appearances": "[3, 4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Slooch"
 },
 {
   "name": "Quaggled Mireclops",
   "weight": "20",
   "appearances": "[3]",
-  "health": "8000"
+  "health": "8000", 
+  "family": "Mireclops"
 },
 {
   "name": "Raging Long Legs",
   "weight": "0",
   "appearances": "[2]",
-  "health": "10000"
+  "health": "10000", 
+  "family": "Arachnorb"
 },
 {
   "name": "Ranging Bloyster",
   "weight": "3",
   "appearances": "[2]",
-  "health": "1500"
+  "health": "1500", 
+  "family": "Mollusking"
 },
 {
   "name": "Ravenous Whiskerpillar",
   "weight": "1",
   "appearances": "[2]",
-  "health": "200"
+  "health": "200", 
+  "family": "Whiskerpillar"
 },
 {
   "name": "Red Spectralids",
   "weight": "1",
   "appearances": "[3, 4]",
-  "health": "1"
+  "health": "1", 
+  "family": "Flutterbie"
 },
 {
   "name": "Sandbelching Meerslug",
   "weight": "20",
   "appearances": "[3]",
-  "health": "10000"
+  "health": "10000", 
+  "family": "Meerslug"
 },
 {
   "name": "Scorchcake",
   "weight": "7",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Shellcake"
 },
 {
   "name": "Scornet Maestro",
   "weight": "10",
   "appearances": "[3]",
-  "health": "8000"
+  "health": "8000", 
+  "family": "Huntinpeck"
 },
 {
   "name": "Scornet",
   "weight": "1",
   "appearances": "[3]",
-  "health": "15"
+  "health": "15", 
+  "family": "Huntinpeck"
 },
 {
   "name": "Segmented Crawbster",
   "weight": "20",
   "appearances": "[2]",
-  "health": "3000"
+  "health": "3000", 
+  "family": "Creep-crab"
 },
 {
   "name": "Shaggy Long Legs",
   "weight": "0",
   "appearances": "[3]",
-  "health": "2500"
+  "health": "2500", 
+  "family": "Arachnorb"
 },
 {
   "name": "Shearflea",
   "weight": "1",
   "appearances": "[4]",
-  "health": "45"
+  "health": "45", 
+  "family": "Springjab"
 },
 {
   "name": "Shearwig",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
-  "health": "74"
+  "health": "74", 
+  "family": "Mandiblard"
 },
 {
   "name": "Shockcake",
   "weight": "7",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Shellcake"
 },
 {
   "name": "Skeeterskate",
   "weight": "2",
   "appearances": "[3, 4]",
-  "health": "45"
+  "health": "45", 
+  "family": "Spitterspatter"
 },
 {
   "name": "Skitter Leaf",
   "weight": "1",
   "appearances": "[2, 3, 4]",
-  "health": "45"
+  "health": "45", 
+  "family": "Skitterling"
 },
 {
   "name": "Skutterchuck",
   "weight": "3",
   "appearances": "[3, 4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Heavil"
 },
 {
   "name": "Smoky Progg",
   "weight": "0",
   "appearances": "[1, 4]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Unknown"
 },
 {
   "name": "Snow Bulborb",
   "weight": "3",
   "appearances": "[2]",
-  "health": "150"
+  "health": "150", 
+  "family": "Breadbug"
 },
 {
   "name": "Snowfake Fluttertail",
   "weight": "15",
   "appearances": "[4]",
-  "health": "6000"
+  "health": "6000", 
+  "family": "Snowswallow"
 },
 {
   "name": "Snowy Blowhog",
   "weight": "5",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Blowhog"
 },
 {
   "name": "Sovereign Bulblax",
   "weight": "30",
   "appearances": "[4]",
-  "health": "8000"
+  "health": "8000", 
+  "family": "Grub-dog"
 },
 {
   "name": "Spotty Bulbear",
   "weight": "12",
   "appearances": "[1, 2, 3, 4]",
-  "health": "1800"
+  "health": "1800", 
+  "family": "Grub-dog"
 },
 {
   "name": "Sputtlefish",
   "weight": "5",
   "appearances": "[3]",
-  "health": "300"
+  "health": "300", 
+  "family": "Squirdler"
 },
 {
   "name": "Startle Spore",
   "weight": "10",
   "appearances": "[4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Chrysanthemum"
 },
 {
   "name": "Sunsquish",
   "weight": "1",
   "appearances": "[4]",
-  "health": "450"
+  "health": "450", 
+  "family": "Squishsquirt"
 },
 {
   "name": "Swarming Sheargrub",
   "weight": "1",
   "appearances": "[3]",
-  "health": "45"
+  "health": "45", 
+  "family": "Mandiblard"
 },
 {
   "name": "Swooping Snitchbug",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Scarpanid"
 },
 {
   "name": "Titan Blowhog",
   "weight": "15",
   "appearances": "[4]",
-  "health": "2000"
+  "health": "2000", 
+  "family": "Blowhog"
 },
 {
   "name": "Titan Dweevil",
   "weight": "0",
   "appearances": "[2]",
-  "health": "5000"
+  "health": "5000", 
+  "family": "Dweevil"
 },
 {
   "name": "Toady Bloyster",
   "weight": "3",
   "appearances": "[2, 3, 4]",
-  "health": "1500"
+  "health": "1500", 
+  "family": "Mollusking"
 },
 {
   "name": "Toxstool",
   "weight": "12",
   "appearances": "[4]",
-  "health": "15000"
+  "health": "15000", 
+  "family": "Sporovid"
 },
 {
   "name": "Tusked Blowhog",
   "weight": "7",
   "appearances": "[4]",
-  "health": "900"
+  "health": "900", 
+  "family": "Tusked blowhog"
+},
+{
+  "name": "Ujadani",
+  "weight": "0",
+  "appearances": "[2]",
+  "health": "0", 
+  "family": "Unknown"
+},
+{
+  "name": "Unmarked Spectralids",
+  "weight": "1",
+  "appearances": "[2]",
+  "health": "1", 
+  "family": "Flitterbie"
 },
 {
   "name": "Vehemoth Phosbat",
   "weight": "15",
   "appearances": "[3]",
-  "health": "8000"
+  "health": "8000", 
+  "family": "Aerodentia"
 },
 {
   "name": "Venom Dweevil",
   "weight": "2",
   "appearances": "[4]",
-  "health": "300"
+  "health": "300", 
+  "family": "Dweevil"
 },
 {
   "name": "Volatile Dweevil",
   "weight": "0",
   "appearances": "[2]",
-  "health": "150"
+  "health": "150", 
+  "family": "Dweevil"
 },
 {
   "name": "Waddlepus",
   "weight": "7",
   "appearances": "[3, 4]",
-  "health": "900"
+  "health": "900", 
+  "family": "Flobbler"
 },
 {
   "name": "Waddlequaff",
   "weight": "7",
   "appearances": "[4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Gourdfeather"
 },
 {
   "name": "Water Dumple",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
-  "health": "200"
+  "health": "200", 
+  "family": "Grub-dog"
 },
 {
   "name": "Waterwraith",
   "weight": "0",
   "appearances": "[2, 4]",
-  "health": "3300"
+  "health": "3300", 
+  "family": "Unknown"
 },
 {
   "name": "Watery Blowhog",
   "weight": "5",
   "appearances": "[2, 3, 4]",
-  "health": "1000"
+  "health": "1000", 
+  "family": "Blowhog"
 },
 {
   "name": "Whiptongue Bulborb",
   "weight": "10",
   "appearances": "[3, 4]",
-  "health": "1300"
+  "health": "1300", 
+  "family": "Grub-dog"
 },
 {
   "name": "White Spectralids",
   "weight": "1",
   "appearances": "[3, 4]",
-  "health": "1"
+  "health": "1", 
+  "family": "Flutterbie"
 },
 {
   "name": "Withering Blowhog",
   "weight": "1",
   "appearances": "[2, 4]",
-  "health": "1800"
+  "health": "1800", 
+  "family": "Blowhog"
 },
 {
   "name": "Wollyhop",
   "weight": "5",
   "appearances": "[1, 2, 4]",
-  "health": "1300"
+  "health": "1300", 
+  "family": "Amphituber"
 },
 {
   "name": "Wolpole",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
-  "health": "74"
+  "health": "74", 
+  "family": "Amphituber"
 },
 {
   "name": "Yellow Spectralids",
   "weight": "1",
   "appearances": "[3, 4]",
-  "health": "1"
+  "health": "1", 
+  "family": "Flutterbie"
 },
 {
   "name": "Yellow Wollyhop",
   "weight": "5",
   "appearances": "[1, 2, 3, 4]",
-  "health": "900"
+  "health": "900", 
+  "family": "Amphituber"
 }
 ]}

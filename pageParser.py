@@ -149,6 +149,8 @@ class Enemy:
         self.url = url
         self.weight = -1 # default val
         self.health = -1 # default val
+        self.appearances = [] # default val
+        self.family = "" # default val
         self.urlText = self.getDataFromUrl()
         self.__parseUrlData__()
     
@@ -166,7 +168,8 @@ class Enemy:
                 self.__toJsonStrHelper__("name", self.name) + "," +
                 self.__toJsonStrHelper__("weight", self.weight) + "," +
                 self.__toJsonStrHelper__("appearances", self.appearances) + "," +
-                self.__toJsonStrHelper__("health", self.health)
+                self.__toJsonStrHelper__("health", self.health) + ", " +
+                self.__toJsonStrHelper__("family", self.family)
                 + "\n}")
 
     # helper func for toJsonStr
@@ -185,7 +188,7 @@ class Enemy:
         #self.weight = self.__parseWeight__()
         self.appearances = self.__parseAppearances__()
         self.__parseTables__()
-        print(self.health)
+        self.family = self.__parseFamily__()
     
 
     # parse weight & health
@@ -243,7 +246,7 @@ class Enemy:
             #print(tableData[len(tableData)-1][4])
             weirdos = [
                 ["Ancient Sirehound", 9000*4], ["Waterwraith", 3300], ["Gatling Groink", 1200],
-                "Nectarous Dandelfly", 5]
+                ["Nectarous Dandelfly", 5], ["Unmarked Spectralids", 1]]
             for weirdo in weirdos:
                 if self.name == weirdo[0]:
                     self.health = weirdo[1]
@@ -281,9 +284,58 @@ class Enemy:
         if (self.name == "Moss"): # for some reason Moss has special data?
             return [4]
         return rList
+    
+
+    def __parseFamily__(self):
+        appearanceFlag = "<th>Family\n</th>"
+        isScanning = False
+        isReading = False
+        rstr = ""
+        for i in range(0, len(self.urlText)):
+            if isReading:
+                if self.urlText[i] == "\"" or self.urlText == ">":
+                    break
+                else:
+                    rstr = rstr + self.urlText[i]
+            elif isScanning:
+                if self.urlText[i-4: i+1] == "</td>": # prevent reading too much
+                    break
+                elif self.urlText[i-6: i+1] == "title=\"": # get stuff
+                    isReading = True
+            elif self.urlText[i-len(appearanceFlag)+1: i+1] == appearanceFlag:
+                isScanning = True
+        if self.name == "Moss": # Moss, once again, is special
+            rstr = "Space-dog family"
+        elif rstr.strip() == "":
+            rstr = "Unknown family"
+        # truncate " family"
+        return rstr[0:-7]
+
+
+# returns a 2d list of enemies with same stats
+def thingHelper(list):
+    matches = []
+    ignoreIndexes = []
+    for i in range(0, len(list)):
+        temp = [list[i].name]
+        foundMatch = False
+        if i not in ignoreIndexes:
+            for j in range(i+1, len(list)):
+                matching = True
+                matching &= list[i].weight == list[j].weight
+                matching &= list[i].health == list[j].health
+                matching &= list[i].appearances[0] == list[j].appearances[0]
+                if matching:
+                    ignoreIndexes.append(j)
+                    temp.append(list[j].name)
+                    foundMatch = True
+        if foundMatch:
+            matches.append(temp)
+    return matches
 
 
 def main():
     ParseHandler.runParse()
+
 
 main()
