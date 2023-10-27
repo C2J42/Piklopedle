@@ -147,6 +147,8 @@ class Enemy:
     def __init__(self, name, url):
         self.name = name
         self.url = url
+        self.weight = -1 # default val
+        self.health = -1 # default val
         self.urlText = self.getDataFromUrl()
         self.__parseUrlData__()
     
@@ -163,7 +165,8 @@ class Enemy:
         return ("{" + 
                 self.__toJsonStrHelper__("name", self.name) + "," +
                 self.__toJsonStrHelper__("weight", self.weight) + "," +
-                self.__toJsonStrHelper__("appearances", self.appearances)
+                self.__toJsonStrHelper__("appearances", self.appearances) + "," +
+                self.__toJsonStrHelper__("health", self.health)
                 + "\n}")
 
     # helper func for toJsonStr
@@ -179,53 +182,75 @@ class Enemy:
     
     # Helper method for parsing URL data
     def __parseUrlData__(self):
-        self.weight = self.__parseWeight__()
+        #self.weight = self.__parseWeight__()
         self.appearances = self.__parseAppearances__()
+        self.__parseTables__()
+        print(self.health)
     
-    # gets enemy weight
-    def __parseWeight__(self):
-        weightFlag = "carriers</a>"
+
+    # parse weight & health
+    def __parseTables__(self):
+        tableFlag = "carriers</a>"
         isScanning = False
         isReading = False
         startedNewRow = True
-        weights = []
-        weightStr = ""
+        tableData = [[]]
+        rowNum = -1 # will get incremented before 1st use
+        currStr = ""
         for i in range(0, len(self.urlText)):
             if isReading:
                 if self.urlText[i] == "\n":
-                    try:
-                        #int(weightStr)
-                        weights.append(int(weightStr))
-                        isScanning = False
-                    except:
-                        isScanning = True
-                        weightStr = ""
-                        isReading = False
-                        startedNewRow = False
-                    #if not isScanning: break
+                    tableData[rowNum].append(currStr)
+                    currStr = ""
+                    isReading = False
                 else: 
-                    weightStr = weightStr + self.urlText[i]
+                    currStr = currStr + self.urlText[i]
             elif isScanning:
                 if self.urlText[i-7: i+1] == "</table>": # prevent reading too much
-                        break
-                if startedNewRow:
-                    if self.urlText[i-3: i+1] == "<td>":
-                        isReading = True
-                else:
-                    if self.urlText[i-3: i+1] == "<tr>":
-                        startedNewRow = True
-            elif self.urlText[i-len(weightFlag)+1: i+1] == weightFlag:
+                    break
+                if self.urlText[i-3: i+1] == "<td>":
+                    isReading = True
+                elif self.urlText[i-3: i+1] == "<tr>":
+                    tableData.append([])
+                    rowNum += 1
+            elif self.urlText[i-len(tableFlag)+1: i+1] == tableFlag:
                 isScanning = True
+        # get health from some weird thing:
+        #   <span class="explain" title="For reference, in Pikmin 2, a Dwarf Red Bulborb has 200 HP,
+        #    and a Red Bulborb has 750.">1100</span>
         try:
-            return weights[len(weights)-1]
+            for i in range(0, len(tableData)):
+                try:
+                    int(tableData[i][4]) # some already formatted correctly
+                except:
+                    tableData[i][4] = tableData[i][4].split(">")[1].split("<")[0]
+        except IndexError:
+            pass
+        tableData.pop(len(tableData)-1)
+        if (len(tableData)-1 == len(self.appearances)):
+            tableData.pop(len(self.appearances)) # hey pikmin :/
+        if self.name == "Bloomcap Bloyster": # so this on has 2 bits to carry
+            self.weight = 8
+        else:
+            try:
+                self.weight = int(tableData[len(tableData)-1][0])
+            except: # for enemies w/o weight
+                self.weight = 0
+        try:
+            self.health = int(tableData[len(tableData)-1][4])
         except:
-            # one cause for error: enemies that didn't have weight in 1, but had weight in others - FIXED
-            #   other cause: some enemies simply have no weight! - Should be caught!
-            # print("Error for " + self.name + "!")
+            #print(self.name.upper())
+            #print(tableData[len(tableData)-1][4])
+            weirdos = [
+                ["Ancient Sirehound", 9000*4], ["Waterwraith", 3300], ["Gatling Groink", 1200],
+                "Nectarous Dandelfly", 5]
+            for weirdo in weirdos:
+                if self.name == weirdo[0]:
+                    self.health = weirdo[1]
+                    return True
+            self.health = 0
+        return True # if runs w/o errors
 
-            # so this now only runs for enemies w/o weight. it prevents program termination and returns 0
-
-            return 0
 
     # gets list of games enemy appeared in
     def __parseAppearances__(self):
