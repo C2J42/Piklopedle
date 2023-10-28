@@ -1,0 +1,12 @@
+FUNCTIONALITY:
+    1. Daily target
+INPUTS:
+    1. case insensitive
+    2. autofill
+    3. show picture
+OUTPUTS:
+    1. save info from inputs (e.g. weight range or family)
+    2. festive win!
+    3. emoji copy+paste
+APPEARANCE:
+    1. make it look good

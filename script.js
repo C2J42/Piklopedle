@@ -6,7 +6,6 @@ let inputCreature = null;
 function evaluateInput() {
     document.getElementById("output").textContent = "You said: " + document.getElementById("creatureInput").value;
     getEnemyInfo(document.getElementById("creatureInput").value, compareVals)
-    // TODO add new row per input, showing max 5-10 rows?
 }
 
 function getEnemyInfo(inputName, callback) {
@@ -44,6 +43,16 @@ function newTarget() {
         targetCreature = data.creature[randKey]
         console.log(targetCreature)
     });
+    document.getElementById("targetNameCompare").textContent = "???";
+    document.getElementById("targetWeightCompare").textContent = "n/a";
+    document.getElementById("targetHealthCompare").textContent = "n/a";
+    document.getElementById("targetFirstAppearCompare").textContent = "n/a";
+    document.getElementById("targetFamilyCompare").textContent = "n/a"
+    document.getElementById("inputName").textContent = "n/a";
+    document.getElementById("inputWeight").textContent = "n/a";
+    document.getElementById("inputHealth").textContent = "n/a";
+    document.getElementById("inputFirstAppear").textContent = "n/a";
+    document.getElementById("inputFamily").textContent = "n/a";
 }
 
 function compareVals() {
@@ -63,7 +72,7 @@ function compareVals() {
         : (parseInt(inputCreature.health) == parseInt(targetCreature.health) ? "equal!" : "more"));
         document.getElementById("targetHealthCompare").textContent = lormHealth;
 
-        // TODO compare family
+        // compare family
         if (inputCreature.family == targetCreature.family) {
             document.getElementById("targetFamilyCompare").textContent = targetCreature.family;
         }
@@ -71,11 +80,15 @@ function compareVals() {
         // compare first appear
         document.getElementById("targetFirstAppearCompare").textContent = inputCreature.appearances.substring(1, 2) == targetCreature.appearances.substring(1, 2);
     } else {
+        // compare name
         document.getElementById("targetNameCompare").textContent = "???";
         // compare weight
         document.getElementById("targetWeightCompare").textContent = "n/a";
-        // compare first appear
+        // compare health
         document.getElementById("targetHealthCompare").textContent = "n/a";
+        // compare first appear
         document.getElementById("targetFirstAppearCompare").textContent = "n/a";
+        // compare family
+        document.getElementById("targetFamilyCompare").textContent = "n/a"
     }
 }
