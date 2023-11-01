@@ -14,7 +14,13 @@ let checkMark = "☑ ";
 /**bc copy/paste annoying*/
 let xMark = "☒ ";
 
-// redo how data shown. Comparision stuff on the input fields, not target fields
+/**
+ * Function run on page load
+ */
+function onLoad() {
+    dailyTarget();
+    setCreatureList();
+}
 
 /**
  * calls evaluateInput() if enter key pressed
@@ -259,4 +265,19 @@ function shuffle(array, seed) {
 function random(seed) {
     var x = Math.sin(seed++) * 10000; 
     return x - Math.floor(x);
+}
+
+/**
+ * Sets up the datalist creatureList for autocomplete
+ */
+function setCreatureList() {
+    let dl = document.getElementById("creatureList");
+    $.getJSON('creatureData.json', function(data) {
+        for (let i = 0; i < data.creature.length; i++) {
+            let option = document.createElement("option");
+            option.value = data.creature[i].name;
+            dl.appendChild(option);
+            //console.log(c.name);
+        }
+    });
 }

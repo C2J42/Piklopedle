@@ -1,10 +1,10 @@
 FUNCTIONALITY:
     1. info button
 INPUTS:
-    1. autofill
+    1. improve autofill search
     2. check for dupes?
 OUTPUTS:
-    1. festive win! (take-off music?) -- look into "modal box"
+    1. festive win! (take-off music?)
     2. emoji copy+paste
 APPEARANCE:
     1. update page layout

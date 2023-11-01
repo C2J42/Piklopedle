@@ -5,9 +5,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
-<body onload = "dailyTarget()">
+<body onload = "onLoad()">
 
-<input type="text" id="creatureInput" value="Hello world!">
+<input type="search" list="creatureList" id="creatureInput" value="Hello world!">
+<datalist id="creatureList"></datalist>
 <button onclick="evaluateInput()" id="enterButton">Enter</button>
 <button hidden onclick="newTarget()" id="freePlayButton">Free play</button>
 <p id="invalidInputWarning"></p>
