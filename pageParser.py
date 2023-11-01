@@ -169,7 +169,8 @@ class Enemy:
                 self.__toJsonStrHelper__("weight", self.weight) + "," +
                 self.__toJsonStrHelper__("appearances", self.appearances) + "," +
                 self.__toJsonStrHelper__("health", self.health) + ", " +
-                self.__toJsonStrHelper__("family", self.family)
+                self.__toJsonStrHelper__("family", self.family) + ", " +
+                self.__toJsonStrHelper__("imgUrl", self.imgUrl)
                 + "\n}")
 
     # helper func for toJsonStr
@@ -189,6 +190,7 @@ class Enemy:
         self.appearances = self.__parseAppearances__()
         self.__parseTables__()
         self.family = self.__parseFamily__()
+        self.imgUrl = self.__parseImageUrl__()
     
 
     # parse weight & health
@@ -253,6 +255,48 @@ class Enemy:
                     return True
             self.health = 0
         return True # if runs w/o errors
+
+
+    # parse image URL
+    def __parseImageUrl__(self):
+        imageUrlFlag = "/File:"
+        isReading = False
+        imgUrl = ""
+        for i in range(0, len(self.urlText)):
+            if isReading:
+                if self.urlText[i] == "\"":
+                    break
+                else:
+                    imgUrl = imgUrl + self.urlText[i]
+            elif self.urlText[i-len(imageUrlFlag)+1: i+1] == imageUrlFlag:
+                isReading = True
+        # surprisingly, this actually works for all enemies! No weirdos!
+
+        # so this isn't the actual image url: its a link to a page with the image with the actual image url :/
+        imgUrl = "https://pikmin.wiki/File:" + imgUrl
+        try:
+            urlText = requests.get(imgUrl).text
+        except:
+            print("Image url not working for enemy " + self.name + "!")
+            print(imgUrl)
+        actualImgUrlFlag = "fullMedia"
+        isScanning = False
+        isReading = False
+        actualImgUrl = ""
+        for i in range(0, len(urlText)):
+            if isReading:
+                if urlText[i] == "\"":
+                    break
+                else:
+                    actualImgUrl = actualImgUrl + urlText[i]
+            elif isScanning:
+                if urlText[i-4: i+1] == "</p>": # prevent reading too much
+                    break
+                elif urlText[i-5: i+1] == "href=\"": # get stuff
+                    isReading = True
+            elif urlText[i-len(actualImgUrlFlag)+1: i+1] == actualImgUrlFlag:
+                isScanning = True
+        return actualImgUrl
 
 
     # gets list of games enemy appeared in

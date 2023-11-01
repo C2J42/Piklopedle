@@ -1,12 +1,12 @@
 FUNCTIONALITY:
-    1. Daily target
+    1. daily target
+    2. info button
 INPUTS:
-    1. case insensitive
-    2. autofill
-    3. show picture
+    1. autofill
+    2. check for dupes?
 OUTPUTS:
-    1. save info from inputs (e.g. weight range or family)
-    2. festive win!
-    3. emoji copy+paste
+    1. festive win! (take-off music?)
+    2. emoji copy+paste
 APPEARANCE:
-    1. make it look good
+    1. update page layout
+    2. add CSS styling

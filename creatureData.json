@@ -4,1035 +4,1183 @@
   "weight": "3",
   "appearances": "[4]",
   "health": "200", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/7/7a/Albino_Dwarf_Bulborb_P4_icon.png"
 },
 {
   "name": "Ancient Sirehound",
   "weight": "0",
   "appearances": "[4]",
   "health": "36000", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/00/Ancient_Sirehound_P4_icon.png"
 },
 {
   "name": "Anode Beetle",
   "weight": "3",
   "appearances": "[2, 4]",
   "health": "350", 
-  "family": "Scarab beetle"
+  "family": "Scarab beetle", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/56/Anode_Beetle_P4_icon.png"
 },
 {
   "name": "Anode Dweevil",
   "weight": "2",
   "appearances": "[2, 4]",
   "health": "300", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/7/70/Anode_Dweevil_icon.png"
 },
 {
   "name": "Antenna Beetle",
   "weight": "3",
   "appearances": "[2]",
   "health": "700", 
-  "family": "Kettlebug"
+  "family": "Kettlebug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/c/cb/Antenna_Beetle_icon.png"
 },
 {
   "name": "Arachnode",
   "weight": "3",
   "appearances": "[3, 4]",
   "health": "450", 
-  "family": "Awrapnid"
+  "family": "Awrapnid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/f7/Arachnode_P4_icon.png"
 },
 {
   "name": "Arctic Cannon Beetle",
   "weight": "30",
   "appearances": "[4]",
   "health": "4500", 
-  "family": "Lithopod"
+  "family": "Lithopod", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/bb/Arctic_Cannon_Beetle_P4_icon.png"
 },
 {
   "name": "Arctic Cannon Larva",
   "weight": "7",
   "appearances": "[3, 4]",
   "health": "900", 
-  "family": "Lithopod"
+  "family": "Lithopod", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/7/7b/Arctic_Cannon_Larva_P4_icon.png"
 },
 {
   "name": "Aristocrab Offspring",
   "weight": "3",
   "appearances": "[4]",
   "health": "450", 
-  "family": "Onionshell"
+  "family": "Onionshell", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/fb/Aristocrab_Offspring_P4_icon.png"
 },
 {
   "name": "Armored Cannon Beetle",
   "weight": "30",
   "appearances": "[1]",
   "health": "0", 
-  "family": "Lithopod"
+  "family": "Lithopod", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/03/Armored_Cannon_Beetle_icon.png"
 },
 {
   "name": "Armored Cannon Larva",
   "weight": "7",
   "appearances": "[2, 3, 4]",
   "health": "900", 
-  "family": "Lithopod"
+  "family": "Lithopod", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/d9/Armored_Cannon_Larva_P4_icon.png"
 },
 {
   "name": "Armored Mawdad",
   "weight": "20",
   "appearances": "[3]",
   "health": "4000", 
-  "family": "Mawdad"
+  "family": "Mawdad", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/30/Armored_Mawdad_icon.png"
 },
 {
   "name": "Baldy Long Legs",
   "weight": "0",
   "appearances": "[3, 4]",
   "health": "3700", 
-  "family": "Arachnorb"
+  "family": "Arachnorb", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b5/Baldy_Long_Legs_P4_icon.png"
 },
 {
   "name": "Beady Long Legs",
   "weight": "0",
   "appearances": "[1, 2]",
   "health": "1300", 
-  "family": "Arachnorb"
+  "family": "Arachnorb", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/0e/Beady_Long_Legs_icon.png"
 },
 {
   "name": "Bearded Amprat",
   "weight": "7",
   "appearances": "[3, 4]",
   "health": "750", 
-  "family": "Numbouse"
+  "family": "Numbouse", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/91/Bearded_Amprat_icon.png"
 },
 {
   "name": "Blizzarding Blowhog",
   "weight": "15",
   "appearances": "[4]",
   "health": "2000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/c/ca/Blizzarding_Blowhog_P4_icon.png"
 },
 {
   "name": "Bloomcap Bloyster",
   "weight": "8",
   "appearances": "[4]",
   "health": "3000", 
-  "family": "Mollusking"
+  "family": "Mollusking", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/c/c2/Bloomcap_Bloyster_P4_icon.png"
 },
 {
   "name": "Bogswallow",
   "weight": "7",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Polyocular slug"
+  "family": "Polyocular slug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/e7/Bogswallow_P4_icon.png"
 },
 {
   "name": "Breadbug",
   "weight": "3",
   "appearances": "[1, 2, 4]",
   "health": "1000", 
-  "family": "Breadbug"
+  "family": "Breadbug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/6a/Breadbug_P4_icon.png"
 },
 {
   "name": "Bug-Eyed Crawmad",
   "weight": "15",
   "appearances": "[3, 4]",
   "health": "2000", 
-  "family": "Crawmad"
+  "family": "Crawmad", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/5f/Bug-Eyed_Crawmad_P4_icon.png"
 },
 {
   "name": "Bulbmin",
   "weight": "7",
   "appearances": "[2]",
   "health": "300", 
-  "family": "Pikmin"
+  "family": "Pikmin", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/e1/Bulbmin_icon.png"
 },
 {
   "name": "Bulborb Larva",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "1", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/15/Bulborb_Larva_P4_icon.png"
 },
 {
   "name": "Bulborb",
   "weight": "10",
   "appearances": "[1, 2, 3, 4]",
   "health": "1000", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/16/Bulborb_P4_icon.png"
 },
 {
   "name": "Bumbling Snitchbug",
   "weight": "3",
   "appearances": "[2]",
   "health": "1500", 
-  "family": "Scarpanid"
+  "family": "Scarpanid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/bf/Bumbling_Snitchbug_icon.png"
 },
 {
   "name": "Burrowing Snagret",
   "weight": "15",
   "appearances": "[1, 2, 3, 4]",
   "health": "2500", 
-  "family": "Snavian"
+  "family": "Snavian", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/e0/Burrowing_Snagret_P3_icon.png"
 },
 {
   "name": "Calcified Crushblat",
   "weight": "12",
   "appearances": "[3]",
   "health": "1000", 
-  "family": "Crushblat"
+  "family": "Crushblat", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/1c/Calcified_Crushblat_icon.png"
 },
 {
   "name": "Careening Dirigibug",
   "weight": "3",
   "appearances": "[2]",
   "health": "1500", 
-  "family": "Dirigibug"
+  "family": "Dirigibug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a6/Careening_Dirigibug_icon.png"
 },
 {
   "name": "Chillyhop",
   "weight": "5",
   "appearances": "[4]",
   "health": "900", 
-  "family": "Amphituber"
+  "family": "Amphituber", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/f4/Chillyhop_P4_icon.png"
 },
 {
   "name": "Cloaking Burrow-nit",
   "weight": "8",
   "appearances": "[2]",
   "health": "300", 
-  "family": "Burrow-nit"
+  "family": "Burrow-nit", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/d9/Cloaking_Burrow-nit_icon.png"
 },
 {
   "name": "Creeping Chrysanthemum",
   "weight": "10",
   "appearances": "[2, 4]",
   "health": "2000", 
-  "family": "Chrysanthemum"
+  "family": "Chrysanthemum", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/4a/Creeping_Chrysanthemum_P4_icon.png"
 },
 {
   "name": "Crusted Rumpup",
   "weight": "20",
   "appearances": "[4]",
   "health": "5000", 
-  "family": "Armrakid"
+  "family": "Armrakid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/7/74/Crusted_Rumpup_P4_icon.png"
 },
 {
   "name": "Decorated Cannon Beetle",
   "weight": "7",
   "appearances": "[2]",
   "health": "850", 
-  "family": "Lithopod"
+  "family": "Lithopod", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/c/c0/Decorated_Cannon_Beetle_icon.png"
 },
 {
   "name": "Desiccated Skitter Leaf",
   "weight": "1",
   "appearances": "[3, 4]",
   "health": "74", 
-  "family": "Skitterling"
+  "family": "Skitterling", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/23/Desiccated_Skitter_Leaf_P4_icon.png"
 },
 {
   "name": "Doodlebug",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "400", 
-  "family": "Flint beetle"
+  "family": "Flint beetle", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/3d/Doodlebug_P4_icon.png"
 },
 {
   "name": "Downy Snagret",
   "weight": "3",
   "appearances": "[4]",
   "health": "300", 
-  "family": "Snavian"
+  "family": "Snavian", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/d7/Downy_Snagret_P4_icon.png"
 },
 {
   "name": "Dwarf Bulbear",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
   "health": "300", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/aa/Dwarf_Bulbear_P4_icon.png"
 },
 {
   "name": "Dwarf Bulborb",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
   "health": "100", 
-  "family": "Breadbug"
+  "family": "Breadbug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/47/Dwarf_Bulborb_P4_icon.png"
 },
 {
   "name": "Dwarf Frosty Bulborb",
   "weight": "3",
   "appearances": "[4]",
   "health": "100", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/eb/Dwarf_Frosty_Bulborb_P4_icon.png"
 },
 {
   "name": "Dwarf Orange Bulborb",
   "weight": "3",
   "appearances": "[2, 3, 4]",
   "health": "200", 
-  "family": "Breadbug"
+  "family": "Breadbug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/69/Dwarf_Orange_Bulborb_P4_icon.png"
 },
 {
   "name": "Emperor Bulblax",
   "weight": "15",
   "appearances": "[1, 2, 4]",
   "health": "3000", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/ff/Emperor_Bulblax_P4_icon.png"
 },
 {
   "name": "Empress Bulblax",
   "weight": "20",
   "appearances": "[2, 4]",
   "health": "5000", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/bd/Empress_Bulblax_P4_icon.png"
 },
 {
   "name": "Female Sheargrub",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
   "health": "45", 
-  "family": "Mandiblard"
+  "family": "Mandiblard", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/2c/Female_Sheargrub_P4_icon.png"
 },
 {
   "name": "Fiery Blowhog",
   "weight": "5",
   "appearances": "[1, 2, 3, 4]",
   "health": "1000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/f2/Fiery_Blowhog_P4_icon.png"
 },
 {
   "name": "Fiery Bulblax",
   "weight": "12",
   "appearances": "[2, 4]",
   "health": "2000", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/17/Fiery_Bulblax_P4_icon.png"
 },
 {
   "name": "Fiery Dweevil",
   "weight": "2",
   "appearances": "[2, 4]",
   "health": "300", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/98/Fiery_Dweevil_P4_icon.png"
 },
 {
   "name": "Flighty Joustmite",
   "weight": "7",
   "appearances": "[3, 4]",
   "health": "600", 
-  "family": "Burrow-nit"
+  "family": "Burrow-nit", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/df/Flighty_Joustmite_P4_icon.png"
 },
 {
   "name": "Foolix",
   "weight": "5",
   "appearances": "[4]",
   "health": "12000", 
-  "family": "Goolix"
+  "family": "Goolix", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/e9/Foolix_P4_icon.png"
 },
 {
   "name": "Freezecake",
   "weight": "7",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Shellcake"
+  "family": "Shellcake", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/04/Freezecake_P4_icon.png"
 },
 {
   "name": "Frosty Bulborb",
   "weight": "10",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/8d/Frosty_Bulborb_P4_icon.png"
 },
 {
   "name": "Gatling Groink",
   "weight": "10",
   "appearances": "[2]",
   "health": "1200", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/54/Gatling_Groink_icon.png"
 },
 {
   "name": "Giant Breadbug",
   "weight": "12",
   "appearances": "[2, 4]",
   "health": "2000", 
-  "family": "Breadbug"
+  "family": "Breadbug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/ae/Giant_Breadbug_P4_icon.png"
 },
 {
   "name": "Gildemander",
   "weight": "20",
   "appearances": "[4]",
   "health": "6000", 
-  "family": "Amphibiland"
+  "family": "Amphibiland", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/67/Gildemander_P4_icon.png"
 },
 {
   "name": "Gildemandwee",
   "weight": "5",
   "appearances": "[4]",
   "health": "500", 
-  "family": "Amphibiland"
+  "family": "Amphibiland", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a4/Gildemandwee_P4_icon.png"
 },
 {
   "name": "Goolix",
   "weight": "0",
   "appearances": "[1]",
   "health": "0", 
-  "family": "Goolix"
+  "family": "Goolix", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/66/Goolix_icon.png"
 },
 {
   "name": "Greater Spotted Jellyfloat",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "2500", 
-  "family": "Jellyfloat"
+  "family": "Jellyfloat", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b4/Greater_Spotted_Jellyfloat_P4_icon.png"
 },
 {
   "name": "Groovy Long Legs",
   "weight": "0",
   "appearances": "[4]",
   "health": "11000", 
-  "family": "Arachnorb"
+  "family": "Arachnorb", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b1/Groovy_Long_Legs_P4_icon.png"
 },
 {
   "name": "Grubchucker",
   "weight": "12",
   "appearances": "[4]",
   "health": "5000", 
-  "family": "Crablipps"
+  "family": "Crablipps", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a0/Grubchucker_P4_icon.png"
 },
 {
   "name": "Hairy Bulborb",
   "weight": "10",
   "appearances": "[2]",
   "health": "650", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a8/Hairy_Bulborb_icon.png"
 },
 {
   "name": "Hermit Crawmad",
   "weight": "5",
   "appearances": "[2, 3, 4]",
   "health": "750", 
-  "family": "Crawmad"
+  "family": "Crawmad", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/82/Hermit_Crawmad_P4_icon.png"
 },
 {
   "name": "Honeywisp",
   "weight": "0",
   "appearances": "[1, 2, 4]",
   "health": "1", 
-  "family": "Honeywisp"
+  "family": "Honeywisp", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/5a/Honeywisp_P2_icon.png"
 },
 {
   "name": "Horned Cannon Beetle",
   "weight": "30",
   "appearances": "[4]",
   "health": "5000", 
-  "family": "Lithopod"
+  "family": "Lithopod", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/c/c6/Horned_Cannon_Beetle_P4_icon.png"
 },
 {
   "name": "Hydro Dweevil",
   "weight": "2",
   "appearances": "[2, 4]",
   "health": "300", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/33/Hydro_Dweevil_icon.png"
 },
 {
   "name": "Iceblown Dweevil",
   "weight": "2",
   "appearances": "[4]",
   "health": "300", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/46/Iceblown_Dweevil_P4_icon.png"
 },
 {
   "name": "Icy Blowhog",
   "weight": "1",
   "appearances": "[4]",
   "health": "3000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/17/Icy_Blowhog_P4_icon.png"
 },
 {
   "name": "Iridescent Flint Beetle",
   "weight": "0",
   "appearances": "[1, 2, 3, 4]",
   "health": "200", 
-  "family": "Flint beetle"
+  "family": "Flint beetle", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/90/Iridescent_Flint_Beetle_P4_icon.png"
 },
 {
   "name": "Iridescent Glint Beetle",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "600", 
-  "family": "Glint beetle"
+  "family": "Glint beetle", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/fe/Iridescent_Glint_Beetle_P4_icon.png"
 },
 {
   "name": "Joustmite",
   "weight": "7",
   "appearances": "[3, 4]",
   "health": "450", 
-  "family": "Burrow-nit"
+  "family": "Burrow-nit", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/68/Joustmite_P4_icon.png"
 },
 {
   "name": "Jumbo Bulborb",
   "weight": "20",
   "appearances": "[4]",
   "health": "2500", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/2f/Jumbo_Bulborb_P4_icon.png"
 },
 {
   "name": "Lesser Spotted Jellyfloat",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "1500", 
-  "family": "Jellyfloat"
+  "family": "Jellyfloat", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/fd/Lesser_Spotted_Jellyfloat_P4_icon.png"
 },
 {
   "name": "Male Sheargrub",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
   "health": "45", 
-  "family": "Mandiblard"
+  "family": "Mandiblard", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/07/Male_Sheargrub_P4_icon.png"
 },
 {
   "name": "Mama Sheargrub",
   "weight": "10",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Mandiblard"
+  "family": "Mandiblard", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/08/Mama_Sheargrub_P4_icon.png"
 },
 {
   "name": "Mammoth Snootwhacker",
   "weight": "20",
   "appearances": "[4]",
   "health": "7000", 
-  "family": "Snootwhack"
+  "family": "Snootwhack", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/d4/Mammoth_Snootwhacker_P4_icon.png"
 },
 {
   "name": "Mamuta",
   "weight": "10",
   "appearances": "[1, 2, 4]",
   "health": "1800", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a2/Mamuta_P4_icon.png"
 },
 {
   "name": "Man-at-Legs",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "5000", 
-  "family": "Arachnorb"
+  "family": "Arachnorb", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/40/Man-at-Legs_P4_icon.png"
 },
 {
   "name": "Masterhop",
   "weight": "15",
   "appearances": "[4]",
   "health": "3000", 
-  "family": "Amphituber"
+  "family": "Amphituber", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/0c/Masterhop_P4_icon.png"
 },
 {
   "name": "Medusal Slurker",
   "weight": "6",
   "appearances": "[3]",
   "health": "750", 
-  "family": "Umbloda"
+  "family": "Umbloda", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/ff/Medusal_Slurker_icon.png"
 },
 {
   "name": "Miniature Snootwhacker",
   "weight": "7",
   "appearances": "[4]",
   "health": "500", 
-  "family": "Snootwhack"
+  "family": "Snootwhack", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/26/Miniature_Snootwhacker_P4_icon.png"
 },
 {
   "name": "Mitite",
   "weight": "1",
   "appearances": "[2, 4]",
   "health": "1", 
-  "family": "Mitite"
+  "family": "Mitite", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/2b/Mitite_icon.png"
 },
 {
   "name": "Moldy Dwarf Bulborb",
   "weight": "3",
   "appearances": "[4]",
   "health": "150", 
-  "family": "Sporovid"
+  "family": "Sporovid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/36/Moldy_Dwarf_Bulborb_P4_icon.png"
 },
 {
   "name": "Moldy Slooch",
   "weight": "3",
   "appearances": "[4]",
   "health": "300", 
-  "family": "Sporovid"
+  "family": "Sporovid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/ad/Moldy_Slooch_P4_icon.png"
 },
 {
   "name": "Moss",
   "weight": "0",
   "appearances": "[4]",
   "health": "7000", 
-  "family": "Space-dog"
+  "family": "Space-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/e8/Moss_NSO_Render.png"
 },
 {
   "name": "Muckerskate",
   "weight": "2",
   "appearances": "[4]",
   "health": "45", 
-  "family": "Spitterspatter"
+  "family": "Spitterspatter", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/9c/Muckerskate_P4_icon.png"
 },
 {
   "name": "Munge Dweevil",
   "weight": "3",
   "appearances": "[2]",
   "health": "350", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b6/Munge_Dweevil_icon.png"
 },
 {
   "name": "Mysterious Life-Form",
   "weight": "0",
   "appearances": "[3]",
   "health": "2000", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b8/Mysterious_Life-Form_icon.png"
 },
 {
   "name": "Nectarous Dandelfly",
   "weight": "0",
   "appearances": "[3]",
   "health": "5", 
-  "family": "Dandelfly"
+  "family": "Dandelfly", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/d3/Nectarous_Dandelfly_icon.png"
 },
 {
   "name": "Orange Bulborb",
   "weight": "10",
   "appearances": "[2, 3, 4]",
   "health": "1800", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/54/Orange_Bulborb_P4_icon.png"
 },
 {
   "name": "Pearly Clamclamp",
   "weight": "10",
   "appearances": "[1, 4]",
   "health": "1000", 
-  "family": "Snareshell"
+  "family": "Snareshell", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/0a/Pearly_Clamclamp_P4_icon.png"
 },
 {
   "name": "Peckish Aristocrab",
   "weight": "7",
   "appearances": "[3, 4]",
   "health": "1500", 
-  "family": "Onionshell"
+  "family": "Onionshell", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/c/c2/Peckish_Aristocrab_icon.png"
 },
 {
   "name": "Phosbat Pod",
   "weight": "0",
   "appearances": "[3]",
   "health": "450", 
-  "family": "Aerodentia"
+  "family": "Aerodentia", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/ef/Phosbat_pod.png"
 },
 {
   "name": "Phosbat",
   "weight": "0",
   "appearances": "[3]",
   "health": "45", 
-  "family": "Aerodentia"
+  "family": "Aerodentia", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/eb/Phosbat_icon.png"
 },
 {
   "name": "Pileated Snagret",
   "weight": "5",
   "appearances": "[2]",
   "health": "5000", 
-  "family": "Snavian"
+  "family": "Snavian", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/90/Pileated_Snagret_icon.png"
 },
 {
   "name": "Plasm Wraith",
   "weight": "0",
   "appearances": "[3]",
   "health": "320", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/97/Plasm_Wraith_icon.png"
 },
 {
   "name": "Porquillion",
   "weight": "12",
   "appearances": "[4]",
   "health": "5000", 
-  "family": "Sharpshell"
+  "family": "Sharpshell", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/ea/Porquillion_P4_icon.png"
 },
 {
   "name": "Pricklepuff",
   "weight": "7",
   "appearances": "[4]",
   "health": "300", 
-  "family": "Pricklepuff"
+  "family": "Pricklepuff", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/34/Pricklepuff_P4_icon.png"
 },
 {
   "name": "Puckering Blinnow",
   "weight": "1",
   "appearances": "[3, 4]",
   "health": "74", 
-  "family": "Elips"
+  "family": "Elips", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/14/Puckering_Blinnow_icon.png"
 },
 {
   "name": "Puffstool",
   "weight": "12",
   "appearances": "[1, 4]",
   "health": "15000", 
-  "family": "Sporovid"
+  "family": "Sporovid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/9e/Puffstool_P4_icon.png"
 },
 {
   "name": "Puffy Blowhog",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
   "health": "3000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/fe/Puffy_Blowhog_P3_icon.png"
 },
 {
   "name": "Pyroclasmic Slooch",
   "weight": "3",
   "appearances": "[3, 4]",
   "health": "300", 
-  "family": "Slooch"
+  "family": "Slooch", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b2/Pyroclasmic_Slooch_P4_icon.png"
 },
 {
   "name": "Quaggled Mireclops",
   "weight": "20",
   "appearances": "[3]",
   "health": "8000", 
-  "family": "Mireclops"
+  "family": "Mireclops", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/1c/Quaggled_Mireclops_icon.png"
 },
 {
   "name": "Raging Long Legs",
   "weight": "0",
   "appearances": "[2]",
   "health": "10000", 
-  "family": "Arachnorb"
+  "family": "Arachnorb", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/7/7b/Raging_Long_Legs_icon.png"
 },
 {
   "name": "Ranging Bloyster",
   "weight": "3",
   "appearances": "[2]",
   "health": "1500", 
-  "family": "Mollusking"
+  "family": "Mollusking", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/6b/Ranging_Bloyster_icon.png"
 },
 {
   "name": "Ravenous Whiskerpillar",
   "weight": "1",
   "appearances": "[2]",
   "health": "200", 
-  "family": "Whiskerpillar"
+  "family": "Whiskerpillar", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/45/Ravenous_Whiskerpillar_icon.png"
 },
 {
   "name": "Red Spectralids",
   "weight": "1",
   "appearances": "[3, 4]",
   "health": "1", 
-  "family": "Flutterbie"
+  "family": "Flutterbie", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/93/Red_Spectralids_P4_icon.png"
 },
 {
   "name": "Sandbelching Meerslug",
   "weight": "20",
   "appearances": "[3]",
   "health": "10000", 
-  "family": "Meerslug"
+  "family": "Meerslug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/f9/Sandbelching_Meerslug_icon.png"
 },
 {
   "name": "Scorchcake",
   "weight": "7",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Shellcake"
+  "family": "Shellcake", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/2d/Scorchcake_P4_icon.png"
 },
 {
   "name": "Scornet Maestro",
   "weight": "10",
   "appearances": "[3]",
   "health": "8000", 
-  "family": "Huntinpeck"
+  "family": "Huntinpeck", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/eb/Scornet_Maestro_icon.png"
 },
 {
   "name": "Scornet",
   "weight": "1",
   "appearances": "[3]",
   "health": "15", 
-  "family": "Huntinpeck"
+  "family": "Huntinpeck", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/48/Scornet_icon.png"
 },
 {
   "name": "Segmented Crawbster",
   "weight": "20",
   "appearances": "[2]",
   "health": "3000", 
-  "family": "Creep-crab"
+  "family": "Creep-crab", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a4/Segmented_Crawbster_icon.png"
 },
 {
   "name": "Shaggy Long Legs",
   "weight": "0",
   "appearances": "[3]",
   "health": "2500", 
-  "family": "Arachnorb"
+  "family": "Arachnorb", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/0f/Shaggy_Long_Legs_icon.png"
 },
 {
   "name": "Shearflea",
   "weight": "1",
   "appearances": "[4]",
   "health": "45", 
-  "family": "Springjab"
+  "family": "Springjab", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/0d/Shearflea_P4_icon.png"
 },
 {
   "name": "Shearwig",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
   "health": "74", 
-  "family": "Mandiblard"
+  "family": "Mandiblard", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/42/Shearwig_P4_icon.png"
 },
 {
   "name": "Shockcake",
   "weight": "7",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Shellcake"
+  "family": "Shellcake", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/08/Shockcake_P4_icon.png"
 },
 {
   "name": "Skeeterskate",
   "weight": "2",
   "appearances": "[3, 4]",
   "health": "45", 
-  "family": "Spitterspatter"
+  "family": "Spitterspatter", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/5f/Skeeterskate_P4_icon.png"
 },
 {
   "name": "Skitter Leaf",
   "weight": "1",
   "appearances": "[2, 3, 4]",
   "health": "45", 
-  "family": "Skitterling"
+  "family": "Skitterling", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/ab/Skitter_Leaf_P4_icon.png"
 },
 {
   "name": "Skutterchuck",
   "weight": "3",
   "appearances": "[3, 4]",
   "health": "300", 
-  "family": "Heavil"
+  "family": "Heavil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/3f/Skutterchuck_icon.png"
 },
 {
   "name": "Smoky Progg",
   "weight": "0",
   "appearances": "[1, 4]",
   "health": "5000", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/f/f2/Smoky_Progg_P4_icon.png"
 },
 {
   "name": "Snow Bulborb",
   "weight": "3",
   "appearances": "[2]",
   "health": "150", 
-  "family": "Breadbug"
+  "family": "Breadbug", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/8e/Snow_Bulborb_icon.png"
 },
 {
   "name": "Snowfake Fluttertail",
   "weight": "15",
   "appearances": "[4]",
   "health": "6000", 
-  "family": "Snowswallow"
+  "family": "Snowswallow", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/a1/Snowfake_Fluttertail_P4_icon.png"
 },
 {
   "name": "Snowy Blowhog",
   "weight": "5",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/2c/Snowy_Blowhog_P4_icon.png"
 },
 {
   "name": "Sovereign Bulblax",
   "weight": "30",
   "appearances": "[4]",
   "health": "8000", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/8b/Sovereign_Bulblax_P4_icon.png"
 },
 {
   "name": "Spotty Bulbear",
   "weight": "12",
   "appearances": "[1, 2, 3, 4]",
   "health": "1800", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/aa/Spotty_Bulbear_P4_icon.png"
 },
 {
   "name": "Sputtlefish",
   "weight": "5",
   "appearances": "[3]",
   "health": "300", 
-  "family": "Squirdler"
+  "family": "Squirdler", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/1/1a/Sputtlefish_icon.png"
 },
 {
   "name": "Startle Spore",
   "weight": "10",
   "appearances": "[4]",
   "health": "2000", 
-  "family": "Chrysanthemum"
+  "family": "Chrysanthemum", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/80/Startle_Spore_P4_icon.png"
 },
 {
   "name": "Sunsquish",
   "weight": "1",
   "appearances": "[4]",
   "health": "450", 
-  "family": "Squishsquirt"
+  "family": "Squishsquirt", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/04/Sunsquish_P4_icon.png"
 },
 {
   "name": "Swarming Sheargrub",
   "weight": "1",
   "appearances": "[3]",
   "health": "45", 
-  "family": "Mandiblard"
+  "family": "Mandiblard", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/65/Swarming_Sheargrub_icon.png"
 },
 {
   "name": "Swooping Snitchbug",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
   "health": "1000", 
-  "family": "Scarpanid"
+  "family": "Scarpanid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/da/Swooping_Snitchbug_P4_icon.png"
 },
 {
   "name": "Titan Blowhog",
   "weight": "15",
   "appearances": "[4]",
   "health": "2000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/e3/Titan_Blowhog_P4_icon.png"
 },
 {
   "name": "Titan Dweevil",
   "weight": "0",
   "appearances": "[2]",
   "health": "5000", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/44/Titan_Dweevil_icon.png"
 },
 {
   "name": "Toady Bloyster",
   "weight": "3",
   "appearances": "[2, 3, 4]",
   "health": "1500", 
-  "family": "Mollusking"
+  "family": "Mollusking", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/0c/Toady_Bloyster_P4_icon.png"
 },
 {
   "name": "Toxstool",
   "weight": "12",
   "appearances": "[4]",
   "health": "15000", 
-  "family": "Sporovid"
+  "family": "Sporovid", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/45/Toxstool_P4_icon.png"
 },
 {
   "name": "Tusked Blowhog",
   "weight": "7",
   "appearances": "[4]",
   "health": "900", 
-  "family": "Tusked blowhog"
+  "family": "Tusked blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/9/9e/Tusked_Blowhog_P4_icon.png"
 },
 {
   "name": "Ujadani",
   "weight": "0",
   "appearances": "[2]",
   "health": "0", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/6/68/Ujadani_icon.png"
 },
 {
   "name": "Unmarked Spectralids",
   "weight": "1",
   "appearances": "[2]",
   "health": "1", 
-  "family": "Flitterbie"
+  "family": "Flitterbie", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/87/Unmarked_Spectralids_icon.png"
 },
 {
   "name": "Vehemoth Phosbat",
   "weight": "15",
   "appearances": "[3]",
   "health": "8000", 
-  "family": "Aerodentia"
+  "family": "Aerodentia", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/42/Vehemoth_Phosbat_icon.png"
 },
 {
   "name": "Venom Dweevil",
   "weight": "2",
   "appearances": "[4]",
   "health": "300", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/2/25/Venom_Dweevil_P4_icon.png"
 },
 {
   "name": "Volatile Dweevil",
   "weight": "0",
   "appearances": "[2]",
   "health": "150", 
-  "family": "Dweevil"
+  "family": "Dweevil", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/88/Volatile_Dweevil_icon.png"
 },
 {
   "name": "Waddlepus",
   "weight": "7",
   "appearances": "[3, 4]",
   "health": "900", 
-  "family": "Flobbler"
+  "family": "Flobbler", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/3/33/Waddlepus_icon.png"
 },
 {
   "name": "Waddlequaff",
   "weight": "7",
   "appearances": "[4]",
   "health": "1000", 
-  "family": "Gourdfeather"
+  "family": "Gourdfeather", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/0/00/Waddlequaff_P4_icon.png"
 },
 {
   "name": "Water Dumple",
   "weight": "3",
   "appearances": "[1, 2, 3, 4]",
   "health": "200", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/b/b1/Water_Dumple_P4_icon.png"
 },
 {
   "name": "Waterwraith",
   "weight": "0",
   "appearances": "[2, 4]",
   "health": "3300", 
-  "family": "Unknown"
+  "family": "Unknown", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/4/43/Waterwraith_P4_icon.png"
 },
 {
   "name": "Watery Blowhog",
   "weight": "5",
   "appearances": "[2, 3, 4]",
   "health": "1000", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/84/Watery_Blowhog_P4_icon.png"
 },
 {
   "name": "Whiptongue Bulborb",
   "weight": "10",
   "appearances": "[3, 4]",
   "health": "1300", 
-  "family": "Grub-dog"
+  "family": "Grub-dog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/7/78/Whiptongue_Bulborb_P4_icon.png"
 },
 {
   "name": "White Spectralids",
   "weight": "1",
   "appearances": "[3, 4]",
   "health": "1", 
-  "family": "Flutterbie"
+  "family": "Flutterbie", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/eb/White_Spectralids_icon.png"
 },
 {
   "name": "Withering Blowhog",
   "weight": "1",
   "appearances": "[2, 4]",
   "health": "1800", 
-  "family": "Blowhog"
+  "family": "Blowhog", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/5/52/Withering_Blowhog_P4_icon.png"
 },
 {
   "name": "Wollyhop",
   "weight": "5",
   "appearances": "[1, 2, 4]",
   "health": "1300", 
-  "family": "Amphituber"
+  "family": "Amphituber", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/8/82/Wollyhop_P4_icon.png"
 },
 {
   "name": "Wolpole",
   "weight": "1",
   "appearances": "[1, 2, 3, 4]",
   "health": "74", 
-  "family": "Amphituber"
+  "family": "Amphituber", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/e/ef/Wolpole_P4_icon.png"
 },
 {
   "name": "Yellow Spectralids",
   "weight": "1",
   "appearances": "[3, 4]",
   "health": "1", 
-  "family": "Flutterbie"
+  "family": "Flutterbie", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/d/df/Yellow_Spectralids_P4_icon.png"
 },
 {
   "name": "Yellow Wollyhop",
   "weight": "5",
   "appearances": "[1, 2, 3, 4]",
   "health": "900", 
-  "family": "Amphituber"
+  "family": "Amphituber", 
+  "imgUrl": "https://pikmin.wiki.gallery/images/a/ac/Yellow_Wollyhop_P4_icon.png"
 }
 ]}
