@@ -213,9 +213,17 @@ function addComparison() {
  */
 function doWin() {
     gameRunning = false;
-    document.getElementById("creatureInput").style.display = "none"
-    document.getElementById("enterButton").style.display = "none"
-    document.getElementById("freePlayButton").style.display = "inline"
+    document.getElementById("creatureInput").style.display = "none";
+    document.getElementById("enterButton").style.display = "none";
+    document.getElementById("freePlayButton").style.display = "inline";
+    document.getElementById("winModal").style.display = "block";
+}
+
+/**
+ * closes the win modal
+ */
+function closeWinModal() {
+    document.getElementById("winModal").style.display = "none";
 }
 
 /**

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
@@ -8,7 +9,7 @@
 
 <input type="text" id="creatureInput" value="Hello world!">
 <button onclick="evaluateInput()" id="enterButton">Enter</button>
-<button onclick="newTarget()" id="freePlayButton">Free play</button>
+<button hidden onclick="newTarget()" id="freePlayButton">Free play</button>
 <p id="invalidInputWarning"></p>
 <table id="comparisonTable">
     <tr>
@@ -19,6 +20,13 @@
         <th>Family</th>
     </tr>
 </table>
-
+<!--modal for winning-->
+<div id="winModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>You won!</p>
+        <button onclick="closeWinModal()">Close</button>
+    </div>
+</div>
 </body>
 </html>

@@ -1,6 +1,5 @@
 FUNCTIONALITY:
-    1. daily target
-    2. info button
+    1. info button
 INPUTS:
     1. autofill
     2. check for dupes?
