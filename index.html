@@ -4,12 +4,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
-<body onload = "newTarget()">
+<body onload = "dailyTarget()">
 
 <input type="text" id="creatureInput" value="Hello world!">
-<button onclick="evaluateInput()">Enter</button>
-<button onclick="newTarget()">New Target</button>
-<p id="output">No input</p>
+<button onclick="evaluateInput()" id="enterButton">Enter</button>
+<button onclick="newTarget()" id="freePlayButton">Free play</button>
+<p id="invalidInputWarning"></p>
 <table id="comparisonTable">
     <tr>
         <th>Name</th>

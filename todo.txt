@@ -5,7 +5,7 @@ INPUTS:
     1. autofill
     2. check for dupes?
 OUTPUTS:
-    1. festive win! (take-off music?)
+    1. festive win! (take-off music?) -- look into "modal box"
     2. emoji copy+paste
 APPEARANCE:
     1. update page layout
