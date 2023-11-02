@@ -7,7 +7,7 @@
 </head>
 <body onload = "onLoad()">
 
-<input type="search" list="creatureList" id="creatureInput" value="Hello world!">
+<input type="search" list="creatureList" id="creatureInput" value="Input creature here!">
 <datalist id="creatureList"></datalist>
 <button onclick="evaluateInput()" id="enterButton">Enter</button>
 <button hidden onclick="newTarget()" id="freePlayButton">Free play</button>
@@ -24,8 +24,9 @@
 <!--modal for winning-->
 <div id="winModal" class="modal">
     <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>You won!</p>
+        <p id="winModalText">You won!</p>
+        <button onclick="copyStrToClipboard()" id="copyStrButton">Copy</button>
+        <br>
         <button onclick="closeWinModal()">Close</button>
     </div>
 </div>

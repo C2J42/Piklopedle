@@ -4,6 +4,11 @@ let targetCreature = null;
 let inputCreature = null;
 /**true if target hasn't been found*/
 let gameRunning = true;
+/**true if daily mode*/
+let dailyMode = true;
+
+/**The thing to copy and send*/
+let copyString = "";
 
 /**bc copy/paste annoying*/
 let downArrow = "↓ ";
@@ -20,6 +25,10 @@ let xMark = "☒ ";
 function onLoad() {
     dailyTarget();
     setCreatureList();
+    let dayStr = "make whatever day it is mm/dd bc THIS IS MURICA"
+    let today = new Date();
+    dayStr = (today.getMonth() + 1).toString() + "/" + today.getDate();
+    copyString = "Piklopedle " + dayStr + "<br>";
 }
 
 /**
@@ -126,47 +135,6 @@ function dailyTarget() {
 }
 
 /**
- * Compares input values and target values. Defunct.
- */
-function compareVals() {
-    if (inputCreature != null) {
-        // compare name
-        if (inputCreature.name == targetCreature.name) {
-            document.getElementById("targetNameCompare").textContent = targetCreature.name;
-        }
-
-        // compare weight
-        let lormWeight = (parseInt(inputCreature.weight) > parseInt(targetCreature.weight) ? "less" 
-        : (parseInt(inputCreature.weight) == parseInt(targetCreature.weight) ? "equal!" : "more"));
-        document.getElementById("targetWeightCompare").textContent = lormWeight;
-
-        // TODO compare health
-        let lormHealth = (parseInt(inputCreature.health) > parseInt(targetCreature.health) ? "less" 
-        : (parseInt(inputCreature.health) == parseInt(targetCreature.health) ? "equal!" : "more"));
-        document.getElementById("targetHealthCompare").textContent = lormHealth;
-
-        // compare family
-        if (inputCreature.family == targetCreature.family) {
-            document.getElementById("targetFamilyCompare").textContent = targetCreature.family;
-        }
-
-        // compare first appear
-        document.getElementById("targetFirstAppearCompare").textContent = inputCreature.appearances.substring(1, 2) == targetCreature.appearances.substring(1, 2);
-    } else {
-        // compare name
-        document.getElementById("targetNameCompare").textContent = "???";
-        // compare weight
-        document.getElementById("targetWeightCompare").textContent = "n/a";
-        // compare health
-        document.getElementById("targetHealthCompare").textContent = "n/a";
-        // compare first appear
-        document.getElementById("targetFirstAppearCompare").textContent = "n/a";
-        // compare family
-        document.getElementById("targetFamilyCompare").textContent = "n/a"
-    }
-}
-
-/**
  * Adds most recent input to top of comparison table
  */
 function addComparison() {
@@ -209,20 +177,45 @@ function addComparison() {
         // oatchi is default because he's the best boy
         row.insertCell(5).appendChild(img);
     }
+    addToCopyStr();
     if (inputCreature.name == targetCreature.name) {
         doWin();
     }
 }
 
 /**
+ * Helper for addComparison() that adds to the copy string
+ */
+function addToCopyStr() {
+    let temp = "";
+    if (dailyMode) {
+        let row = document.getElementById("comparisonTable").rows[1];
+        for (let i = 1; i <= 4; i++) {
+            temp += row.cells[i].textContent.substring(0, 1)
+        }
+    }
+    copyString += temp + "<br>";
+}
+
+/**
  * Things to happen when target matches input
  */
 function doWin() {
+    // basic stuff
     gameRunning = false;
     document.getElementById("creatureInput").style.display = "none";
     document.getElementById("enterButton").style.display = "none";
     document.getElementById("freePlayButton").style.display = "inline";
     document.getElementById("winModal").style.display = "block";
+
+    // add copyString to win modal (& get rid of trailing whitespace)
+    if (dailyMode) {
+        copyString = copyString.trim();
+        document.getElementById("winModalText").innerHTML = "You won!<br>" + copyString;
+    } else {
+        document.getElementById("copyStrButton").style.display = "none";
+        document.getElementById("winModalText").innerHTML = "You won!";
+    }
 }
 
 /**
@@ -280,4 +273,9 @@ function setCreatureList() {
             //console.log(c.name);
         }
     });
+}
+
+function copyStrToClipboard() {
+    //copyString.replace("<br>", "\n");
+    navigator.clipboard.writeText(copyString.replaceAll("<br>", "\n"));
 }
