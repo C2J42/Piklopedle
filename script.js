@@ -212,6 +212,7 @@ function doWin() {
     if (dailyMode) {
         copyString = copyString.trim();
         document.getElementById("winModalText").innerHTML = "You won!<br>" + copyString;
+        dailyMode = false;
     } else {
         document.getElementById("copyStrButton").style.display = "none";
         document.getElementById("winModalText").innerHTML = "You won!";
