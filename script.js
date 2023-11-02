@@ -196,7 +196,7 @@ function addToCopyStr() {
     if (dailyMode) {
         let row = document.getElementById("comparisonTable").rows[1];
         for (let i = 1; i <= 4; i++) {
-            temp += row.cells[i].textContent.substring(0, 1)
+            temp += row.cells[i].textContent.substring(0, 1);
         }
     }
     copyString += temp + "<br>";
@@ -207,6 +207,7 @@ function addToCopyStr() {
  */
 function doWin() {
     // basic stuff
+    document.getElementById("eodThemeP4").play();
     gameRunning = false;
     document.getElementById("creatureInput").style.display = "none";
     document.getElementById("enterButton").style.display = "none";
