@@ -29,6 +29,11 @@ function onLoad() {
     let today = new Date();
     dayStr = (today.getMonth() + 1).toString() + "/" + today.getDate();
     copyString = "Piklopedle " + dayStr + "<br>";
+
+    // making sure vars resent
+    inputCreature = null;
+    gameRunning = true;
+    dailyMode = true;
 }
 
 /**
